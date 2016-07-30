@@ -1,0 +1,33 @@
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin setAntiAliased() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin fadeBackgroundBorderColor() {
+	-webkit-transition: background-color 200ms ease-in, border-color 200ms ease-in, color 200ms ease-in;
+    -moz-transition: background-color 200ms ease-in, border-color 200ms ease-in, color 200ms ease-in;
+    -o-transition: background-color 200ms ease-in, border-color 200ms ease-in, color 200ms ease-in;
+    -ms-transition: background-color 200ms ease-in, border-color 200ms ease-in, color 200ms ease-in;
+    transition: background-color 200ms ease-in, border-color 200ms ease-in, color 200ms ease-in;
+}
+
+@mixin fadeOpacity() {
+	-webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    -o-transition: opacity 200ms ease-in;
+    -ms-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+}
+
+@mixin setAntiAliased() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

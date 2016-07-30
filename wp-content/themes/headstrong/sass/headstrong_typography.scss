@@ -1,0 +1,318 @@
+body, html {
+	font-family: $font-family-sans-serif; 
+    font-weight: 400;
+	line-height: 1.5;
+	background: #fff;
+	font-size: 10px;
+}
+
+h1 {
+	font-family: $font-family-header;
+	color: $headstrong-primary;
+	font-weight: 500;
+	line-height: 1;
+	@include setAntiAliased();
+	letter-spacing: -1px;
+	
+	font-size: 3.6rem;
+	
+	@media (min-width: $screen-sm-min) {
+		font-size: 5rem;
+	}
+	
+	@media (min-width: $screen-md-min) {
+		font-size: 6rem;
+	}
+	
+	@media (min-width: $screen-lg-min) {
+		font-size: 7.5rem;
+	}
+	
+	&.reduced {
+		
+		font-size: 3rem;
+	
+		@media (min-width: $screen-sm-min) {
+			font-size: 4rem;
+		}
+		
+		@media (min-width: $screen-md-min) {
+			font-size: 5rem;
+		}
+		
+		@media (min-width: $screen-lg-min) {
+			font-size: 6rem;
+		}
+	}
+}
+
+h2 {
+	color: $headstrong-lightblue;
+//	font-family: $font-family-header;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-bottom: 2.8rem;
+	
+	font-size: 3.2rem;
+	
+	@media (min-width: $screen-sm-min) {
+		font-size: 4.8rem;
+	}
+	
+	&.reduced {
+		
+		font-size: 3.2rem;
+	
+		@media (min-width: $screen-sm-min) {
+			font-size: 3.8rem;
+		}
+		
+	}
+	
+	
+}
+
+h3 {
+	color: $headstrong-primary;
+	font-weight: 600;
+	font-size: 2.8rem;
+//	font-family: $font-family-header;
+	&.prominent {
+		color: $headstrong-red;
+	}
+}
+
+
+p, li {
+	font-size: 1.8rem;
+	@media (min-width: $screen-sm-min) {
+	font-size: 2rem;
+	}
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+
+a {
+	&:hover {
+		text-decoration: none;		
+	}
+}
+
+.body-text {
+	
+	
+	h2 {
+		color: $headstrong-primary;
+	
+		margin-bottom: 2rem;
+		
+		font-size: 2.2rem;
+		
+		@media (min-width: $screen-sm-min) {
+			font-size: 3.6rem;
+		}
+		a:link, a:visited {
+			color: $headstrong-primary;
+		}
+	}
+	
+	h3 {
+		
+		font-size: 2rem;
+		
+		@media (min-width: $screen-sm-min) {
+			font-size: 3.2rem;
+		}
+		
+	}
+	
+	:first-child {
+		margin-top: 0;
+	}
+		
+}
+
+.large-body-text {
+	
+	
+	h2 {
+		color: $headstrong-lightblue;
+		margin-top: 5rem;
+		margin-bottom: 2rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #CCC;
+		
+		font-size: 3.2rem;
+	
+	@media (min-width: $screen-sm-min) {
+		font-size: 4.2rem;
+	}
+		a:link, a:visited {
+			color: $headstrong-primary;
+		}
+	}
+	
+	h3 {
+		
+		font-size: 2rem;
+		
+		@media (min-width: $screen-sm-min) {
+			font-size: 3.2rem;
+		}
+		
+	}
+	
+	:first-child {
+		margin-top: 0;
+	}
+	
+	ul {
+		margin-bottom: 2rem;
+	}
+		
+}
+
+.float-right-button {
+	display:block;
+	clear: both;
+	@media (min-width: $screen-sm-min) {
+		display:inline;
+		float: right;
+		margin-left: 100px;
+	}
+	
+	@media (min-width: $screen-md-min) {
+		margin-left: 200px;
+		}
+}
+
+
+.buttonParagraph {
+	margin-top: 2rem;
+}
+
+blockquote.quoteImage {
+	padding: 0;
+	margin: 0 0 2rem 0;
+	border: none;
+	width: 100%;
+	background-image: none;
+	
+	> img {
+		margin-bottom: 1.8rem;
+	}
+	
+	p.quote {
+		font-size: 2rem;
+		font-weight: 600;
+		color: $headstrong-primary;
+		line-height: 1.2;
+		font-variant: normal;
+	}
+	
+	p.quotee {
+		font-size: 1.6rem;
+		font-weight: 700;
+	}
+}
+
+.readmoreLink {
+	font-size: 2.6rem;
+	font-family: $font-family-header;
+	font-weight: 500;
+	
+	a::after {
+		padding-left: 10px;
+		content:"\203A";
+	}
+	
+	a:link {
+		color: $headstrong-lightblue;
+	}
+	
+	a:visited {
+		color: lighten($headstrong-lightblue,10%);
+	}
+	
+	a:hover {
+		color: darken($headstrong-lightblue,10%);
+	}
+	
+	a:active {
+		color: darken($headstrong-lightblue,20%);
+	}	
+}
+
+.bg-lightblue {
+	background-color: $headstrong-lightblue-background;
+}
+
+.bg-midblue {
+	background-color: $headstrong-midblue-background;
+}
+
+.bg-brightblue {
+	background-color: $headstrong-brightblue-background;
+}
+
+.blockLink {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	text-indent: -99999px;
+}
+
+.greytext {
+	color: #333;
+}
+
+blockquote {
+	border: none;
+	color: $headstrong-lightblue;
+	font-style: italic;
+	font-size: 2.4rem;
+	line-height: 1.25;
+	background-image: url(../img/quote.png);
+	background-image: none, url(../img/quote.svg);
+	background-position: left 15px;
+	background-repeat: no-repeat;
+	background-size: 40px 30px;
+	padding-left: 55px !important;
+		
+	p {
+		font-size: 2.4rem;
+		line-height: 1.25;
+	}
+	
+	
+	@include make-sm-column(4);
+	@media (min-width: $screen-sm-min) {
+		float: right;
+	}
+	
+}
+
+.wide-button {
+	
+	@media (max-width: $screen-sm-min) {
+		width:100%;
+		display: block;
+		margin: 0 0 10px 0;
+		
+	}
+	
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.readmore {
+	margin-top: 0;
+}
