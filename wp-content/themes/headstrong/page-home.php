@@ -25,16 +25,6 @@
 	  </div>
 	</section>
 
-	<div class="problems-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<?php echo get_post_meta($post->ID, 'problems_bar', true); ?>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div class="wrapper bg-lightblue padded-panel">
 		<div class="container">
 			<div class="row">
