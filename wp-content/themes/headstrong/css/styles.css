@@ -91,15 +91,22 @@
 
 /*---------------------------- Humans of New York ----------------------------*/
 
+.hony {
+  padding: 0 0 24px 0;
+}
 
+.hony__a {
+  color: orange;
+}
 
 .hony__above-the-fold {
-  background-color: orange;
+  background-color: #666;
   height: auto;
   padding: 10% 0;
 }
 
 .hony__button {
+  color: #eee;
   background-color: #333;
   border: 0;
   border-radius: 5px;
@@ -111,8 +118,7 @@
 }
 
 .hony__content {
-  margin: 0 auto;
-  max-width: 900px;
+  color: #eee;
 }
 
 .hony__p {
@@ -129,7 +135,7 @@
 }
 
 .hony__profile-picture {
-  background-color: orange;
+  background-color: #666;
   border-radius: 50%;
   height: 0;
   padding: 0 0 100% 0;
@@ -143,6 +149,7 @@
 }
 
 .hony__title {
+  color: #eee;
   max-width: 400px;
 }
 
