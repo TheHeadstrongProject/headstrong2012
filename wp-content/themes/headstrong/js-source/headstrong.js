@@ -219,4 +219,21 @@ $(document).ready(function(){
         window.open(this.href, '_blank');
 	});
 
+  //------------------
+  // donate
+  $(document).on('click', '.donate__next', function() {
+    var target = $(this).data('target');
+
+    if (target) {
+      $('#donate__stage-1').hide();
+      $('#donate__stage-2').hide();
+
+      if (target == 3) {
+        alert('taking to classy');
+      }
+
+      $('#donate__stage-' + target).show();
+    }
+  });
+
 });
