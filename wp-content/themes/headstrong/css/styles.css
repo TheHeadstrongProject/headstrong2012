@@ -89,6 +89,65 @@
 
 /*----------------------------------------------------------------------------*/
 
+/*---------------------------- Humans of New York ----------------------------*/
+
+
+
+.hony__above-the-fold {
+  background-color: orange;
+  height: auto;
+  padding: 10% 0;
+}
+
+.hony__button {
+  background-color: #333;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 24px;
+  outline: none;
+  margin: 36px 0 0 0;
+  padding: 10px 12px;
+}
+
+.hony__content {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.hony__p {
+  max-width: 400px;
+}
+
+.hony__profile {
+  margin: 24px 0;
+  padding: 20px 0;
+}
+
+.hony__profile-p {
+  font-size: 18px;
+}
+
+.hony__profile-picture {
+  background-color: orange;
+  border-radius: 50%;
+  height: 0;
+  padding: 0 0 100% 0;
+  width: 100%;
+}
+
+.hony__profile-picture-container {
+  margin: 24px auto;
+  max-width: 240px;
+  width: 100%;
+}
+
+.hony__title {
+  max-width: 400px;
+}
+
+/*----------------------------------------------------------------------------*/
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
