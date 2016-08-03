@@ -18,7 +18,7 @@
 
 	  <div class="homepage__panel homepage__panel--secondary">
 	    <div class="homepage__panel-content homepage__panel-content--secondary">
-	      <h2 class="homepage__panel-title homepage__panel-title--secondary">Our Veterans need us.</h2>
+	      <h2 class="homepage__panel-title homepage__panel-title--secondary">Our veterans need us.</h2>
 	      <p class="homepage__p">With your support, we can extend our proven program to reach more veterans in need.</p>
 	      <button class="homepage__button">Donate Now</button>
 	    </div>

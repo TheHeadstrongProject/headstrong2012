@@ -14,14 +14,18 @@
 }
 
 .homepage__panel {
-  background-color: #666;
+  background-image: url(../img/Headstrong-Image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .homepage__panel.homepage__panel--secondary {
-  background-color: #999;
+  background-image: url(../img/Headstrong-Image2.png);
 }
 
 .homepage__panel-content {
+  font-family: "Roboto Condensed";
   margin: 0 auto;
   max-width: 480px;
   padding: 36px 20px;
@@ -41,8 +45,10 @@
 .homepage__button {
   background-color: #333;
   border: 0;
-  border-radius: 5px;
+  border-radius: 12px;
   box-shadow: none;
+  font-family: "Roboto Condensed";
+  font-weight: bold;
   font-size: 24px;
   outline: none;
   margin: 36px 0 0 0;
