@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
+/*-------------------- HONY CTA bar --------------------------*/
+
+.hony-cta {
+  background-color: #111;
+  border-radius: 0 30px 0 0;
+  bottom: 0;
+  color: #eee;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 40px 12px 30px;
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+}
+
+.hony-cta:hover {
+  background-color: grey;
+  color: #eee;
+}
+
+.hony-cta__text {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 0 0 10px;
+}
+
 /*----------------------------- Homepage -------------------------------------*/
 
 .homepage__above-the-fold {
