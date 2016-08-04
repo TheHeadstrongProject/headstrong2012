@@ -47,7 +47,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<?php include_once('templates/layout/google-analytics.php') ?>
+	<?php include_once('templates/layout/analytics.php') ?>
 	<?php get_template_part( 'navigation' ); ?>
 
 
