@@ -51,6 +51,30 @@
   max-width: none;
 }
 
+/*----------------------------- Get Help -------------------------------------*/
+
+.get-help__form-box {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 20px;
+}
+
+/*----------------------------- Get Help Form --------------------------------*/
+
+.get-help-form {
+
+}
+
+.get-help-form__input {
+  font-size: 18px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.get-help-form__label {
+  font-size: 16px;
+  font-weight: normal;
+  display: block;
+>>>>>>> try return url
 }
 
 /*----------------------------- Homepage -------------------------------------*/
