@@ -52,3 +52,5 @@
 		if (!is_page('donate'))
 			get_template_part('navigation');
 	?>
+
+	<?php get_template_part('hony-cta'); ?>
