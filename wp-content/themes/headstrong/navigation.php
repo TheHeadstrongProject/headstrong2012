@@ -9,39 +9,63 @@
  */
 ?>
 
-<header>
+<header class="header">
 	<div class="container">
 		<div class="row">
-			<div
-				class="col-xs-5 col-sm-4 col-md-3 mainLogo"
-				data-offset-top="55"
-				data-spy="affix"
-			>
+			<div class="col-xs-6 col-md-3" >
 				<a
-					class="ga-track"
+					class="header__logo-link ga-track"
 					data-ga-action="clicked on nav"
-      		data-ga-category="home"
-      		data-ga-label="header"
+					data-ga-category="home"
+					data-ga-label="header"
 					href="/"
+					title="The Headstrong Project"
 				>
-					<img src="<?php bloginfo('template_url'); ?>/img/HeadstrongLogo-Tagline.svg" class="img-responsive" alt="The Headstrong Project" /></a>
+					<img
+						alt="The Headstrong Project"
+						class="header__logo"
+						src="<?php bloginfo('template_url'); ?>/img/HeadstrongLogo-Tagline.svg"
+					/>
+				</a>
 	   	</div>
-		   <div class="col-xs-7 col-sm-8 col-md-9 social-media">
-			   <div class="sm-block">
-				   <a href="https://www.facebook.com/HeadstrongProject/" class="sm-button facebook-button">Facebook</a>
-				   <a href="https://twitter.com/getheadstrongg" class="sm-button twitter-button">Twitter</a>
-				   <a href="https://plus.google.com/+GetheadstrongOrg" class="sm-button google-button">Google+</a>
-				   <a href="mailto:iamheadstrong@getheadstrong.org" class="sm-button email-button">Email</a>
+		   <div class="col-xs-6 col-md-9">
+			   <div class="header__sm-block">
+			   	<a
+						data-ga-action="clicked on social media"
+						data-ga-category="instagram"
+						data-ga-label="header"
+				   	href="https://www.instagram.com/getheadstrong/"
+				   	class="header__sm-link ga-track"
+				   	title="The Headstrong Project Facebook"
+				   >
+						<i class="fa fa-instagram"></i>
+					</a>
+
+					<a
+						data-ga-action="clicked on social media"
+						data-ga-category="twitter"
+						data-ga-label="header"
+				   	href="https://twitter.com/HeadstrongProj/"
+				   	class="header__sm-link ga-track"
+				   	title="The Headstrong Project Twitter"
+				   >
+						<i class="fa fa-twitter"></i>
+					</a>
+
+					<a
+						data-ga-action="clicked on social media"
+						data-ga-category="facebook"
+						data-ga-label="header"
+				   	href="https://www.facebook.com/HeadstrongProject/"
+				   	class="header__sm-link ga-track"
+				   	title="The Headstrong Project Facebook"
+				   >
+						<i class="fa fa-facebook"></i>
+					</a>
 		   	</div>
-
 	   	</div>
-
    	</div>
-
 	</div>
-
-
-
 
 	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="40">
 	  <div class="container">
@@ -94,14 +118,15 @@
     			</li>
 	        <li class="dropdown">
 	        	<a
-	        		class="dropdown-toggle ga-track"
+							aria-expanded="false"
+							aria-haspopup="true"
+							class="dropdown-toggle ga-track"
 							data-ga-action="clicked on nav"
-		      		data-ga-category="about-us"
-		      		data-ga-label="header"
-		      		data-toggle="dropdown"
-	        		href="/about-us"
-	        		role="button"
-	        		aria-haspopup="true" aria-expanded="false"
+							data-ga-category="about-us"
+							data-ga-label="header"
+							data-toggle="dropdown"
+							href="/about-us"
+							role="button"
         		>
         			About us <span class="caret"></span>
         		</a>
@@ -145,7 +170,8 @@
 	        </li>
 	        <li class="donateLink">
 	        	<a
-		        	class="ga-track"
+	        		id="header__donate-link"
+		        	class="header__donate-link ga-track"
 	        		data-ga-action="clicked on nav"
 	        		data-ga-category="donate"
 	        		data-ga-label="header"

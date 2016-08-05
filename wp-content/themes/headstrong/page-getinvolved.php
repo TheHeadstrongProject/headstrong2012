@@ -132,15 +132,15 @@ while ( have_posts() ) : the_post();
 										<div class="img-cropper">
 									<?php
 			the_post_thumbnail(array(760, 760),array('class' => 'img-responsive'));
-	
+
 
 
 	?></div>
 									</a>
 
 								</div>
-								
-								
+
+
 
 								<div class="col-xs-12 col-sm-8"> <?php } else { ?>
 								<div class="col-xs-12"><?php } ?>
@@ -193,15 +193,15 @@ while ( have_posts() ) : the_post();
 										<div class="img-cropper">
 									<?php
 			the_post_thumbnail(array(760, 760),array('class' => 'img-responsive'));
-	
+
 
 
 	?></div>
 									</a>
 
 								</div>
-								
-								
+
+
 
 								<div class="col-xs-12 col-sm-8"> <?php } else { ?>
 								<div class="col-xs-12"><?php } ?>
@@ -254,15 +254,15 @@ while ( have_posts() ) : the_post();
 										<div class="img-cropper">
 									<?php
 			the_post_thumbnail(array(760, 760),array('class' => 'img-responsive'));
-	
+
 
 
 	?></div>
 									</a>
 
 								</div>
-								
-								
+
+
 
 								<div class="col-xs-12 col-sm-8"> <?php } else { ?>
 								<div class="col-xs-12"><?php } ?>
@@ -293,27 +293,27 @@ while ( have_posts() ) : the_post();
 <?php endwhile; ?>
 
 <div class="social-media-panel">
-	
+
 	<div class="wrapper padded-panel events-panel">
 
 		<div class="container">
-	
+
 		    <div class="row">
-	
+
 				<div class="col-xs-12 col-lg-10 col-lg-offset-1">
-					
+
 					<h2 class="reduced">Connect on social media</h2>
-					
+
 					<div class="sm-block sm-block-lg">
 				   <a href="https://www.facebook.com/HeadstrongProject/" class="sm-button facebook-button">Facebook</a>
-				   <a href="https://twitter.com/getheadstrongg" class="sm-button twitter-button">Twitter</a>
+				   <a href="https://twitter.com/HeadstrongProj" class="sm-button twitter-button">Twitter</a>
 				   <a href="https://plus.google.com/+GetheadstrongOrg" class="sm-button google-button">Google+</a>
 				   </div>
 				</div>
 	    	</div>
 		</div>
 	  </div>
-	   
+
 </div>
 
 
