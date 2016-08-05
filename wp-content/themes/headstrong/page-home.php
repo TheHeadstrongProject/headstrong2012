@@ -6,23 +6,48 @@
 ?>
 
 <?php get_header(); ?>
-<?php while ( have_posts() ) : the_post(); ?>
+<?php while (have_posts()) : the_post(); ?>
 	<section class="homepage__above-the-fold">
-	  <div class="homepage__panel">
-	    <div class="homepage__panel-content">
-	      <h1 class="homepage__panel-title">We've got your back.</h1>
-	      <p class="homepage__p">We provide free, confidential mental health support <i>that works,</i> for veterans of Iraq and Afghanistan.</p>
-	      <button class="homepage__button">Get Help</button>
-	    </div>
+		<div class="homepage__panel-container">
+		  <div class="homepage__panel">
+		    <div class="homepage__panel-content">
+		      <h1 class="homepage__panel-title">
+		      	We've got your back.
+		      </h1>
+		      <p class="homepage__p">
+		      	We provide veterans of Iraq and Afghanistan with free mental health care that works.
+		      </p>
+		      <a
+		      	class="homepage__cta ga-track"
+		      	data-ga-action="clicked on cta"
+		      	data-ga-category="get-help"
+		      	data-ga-label="homepage above-the-fold"
+		      	href="/get-help"
+		      >
+		      	Get Help
+		      </a>
+		    </div>
+		  </div>
 	  </div>
 
-	  <div class="homepage__panel homepage__panel--secondary">
-	    <div class="homepage__panel-content homepage__panel-content--secondary">
-	      <h2 class="homepage__panel-title homepage__panel-title--secondary">Our veterans need us.</h2>
-	      <p class="homepage__p">With your support, we can extend our proven program to reach more veterans in need.</p>
-	      <button class="homepage__button">Donate Now</button>
-	    </div>
-	  </div>
+	  <div class="homepage__panel-container homepage__panel-container--secondary">
+		  <div class="homepage__panel homepage__panel--secondary">
+		    <div class="homepage__panel-content homepage__panel-content--secondary">
+		      <h2 class="homepage__panel-title homepage__panel-title--secondary">Our veterans need us.</h2>
+		      <p class="homepage__p">
+		      	With your support, we can extend our proven program to reach more veterans in need.
+		      </p>
+		      <a
+		      	class="homepage__cta ga-track"
+		      	data-ga-action="clicked on cta"
+		      	data-ga-category="donate"
+		      	data-ga-label="homepage above-the-fold"
+		      	href="/donate"
+		      >
+		      	Donate Now
+		      </a>
+		    </div>
+		  </div>
 	</section>
 
 	<div class="wrapper bg-lightblue padded-panel">
