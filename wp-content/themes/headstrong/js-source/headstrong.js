@@ -175,16 +175,18 @@ var GoogleAnalytics = (function() {
     $(document).on('click', sel, function(e) {
       var $t = $(this);
 
-      var action = $t.data('ga-category');
+      var action = $t.data('ga-action');
       var category = $t.data('ga-category');
-      var label = $t.data('ga-category');
+      var label = $t.data('ga-label') || '';
 
       sendEvent(category, action, label);
     });
   };
 
   var sendEvent = function(category, action, label) {
-    ga('send', 'event', category, action, label);
+    if (typeof ga === 'function') {
+      ga('send', 'event', category, action, label);
+    }
   };
 
   init();
