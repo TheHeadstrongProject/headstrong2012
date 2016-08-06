@@ -10,68 +10,63 @@
 ?>
 
 <header class="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-6 col-md-3" >
-				<a
-					class="header__logo-link ga-track"
-					data-ga-action="clicked on nav"
-					data-ga-category="home"
-					data-ga-label="header"
-					href="/"
-					title="The Headstrong Project"
-				>
-					<img
-						alt="The Headstrong Project"
-						class="header__logo"
-						src="<?php bloginfo('template_url'); ?>/img/HeadstrongLogo-Tagline.svg"
-					/>
-				</a>
-	   	</div>
-		   <div class="col-xs-6 col-md-9">
-			   <div id="social-media" class="social-media">
-			   	<a
-						data-ga-action="clicked on social media"
-						data-ga-category="instagram"
-						data-ga-label="header"
-				   	href="https://www.instagram.com/getheadstrong/"
-				   	class="social-media__link ga-track"
-				   	target="_blank"
-				   	title="The Headstrong Project Facebook"
-				   >
-						<i class="fa fa-instagram"></i>
-					</a>
+	<div class="header__sm">
+	  <div id="social-media" class="social-media">
+	  	<a
+				data-ga-action="clicked on social media"
+				data-ga-category="facebook"
+				data-ga-label="header"
+		   	href="https://www.facebook.com/HeadstrongProject/"
+		   	class="social-media__link ga-track"
+		   	target="_blank"
+		   	title="The Headstrong Project Facebook"
+		   >
+				<i class="fa fa-facebook"></i>
+			</a>
 
-					<a
-						data-ga-action="clicked on social media"
-						data-ga-category="twitter"
-						data-ga-label="header"
-				   	href="https://twitter.com/HeadstrongProj/"
-				   	class="social-media__link ga-track"
-				   	target="_blank"
-				   	title="The Headstrong Project Twitter"
-				   >
-						<i class="fa fa-twitter"></i>
-					</a>
+			<a
+				data-ga-action="clicked on social media"
+				data-ga-category="twitter"
+				data-ga-label="header"
+		   	href="https://twitter.com/HeadstrongProj/"
+		   	class="social-media__link ga-track"
+		   	target="_blank"
+		   	title="The Headstrong Project Twitter"
+		   >
+				<i class="fa fa-twitter"></i>
+			</a>
 
-					<a
-						data-ga-action="clicked on social media"
-						data-ga-category="facebook"
-						data-ga-label="header"
-				   	href="https://www.facebook.com/HeadstrongProject/"
-				   	class="social-media__link ga-track"
-				   	target="_blank"
-				   	title="The Headstrong Project Facebook"
-				   >
-						<i class="fa fa-facebook"></i>
-					</a>
-		   	</div>
-	   	</div>
-   	</div>
-	</div>
+			<a
+				data-ga-action="clicked on social media"
+				data-ga-category="instagram"
+				data-ga-label="header"
+		   	href="https://www.instagram.com/getheadstrong/"
+		   	class="social-media__link ga-track"
+		   	target="_blank"
+		   	title="The Headstrong Project Facebook"
+		   >
+				<i class="fa fa-instagram"></i>
+			</a>
+	 	</div>
+ 	</div>
 
-	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="40">
-	  <div class="container">
+	<nav id="header__navbar" class="navbar navbar-default" data-spy="affix" data-offset-top="35">
+	  <div class="header__nav">
+	  	<a
+				class="header__logo-link ga-track"
+				data-ga-action="clicked on nav"
+				data-ga-category="home"
+				data-ga-label="header"
+				href="/"
+				title="The Headstrong Project"
+			>
+				<img
+					alt="The Headstrong Project"
+					class="header__logo"
+					src="<?php bloginfo('template_url'); ?>/img/HeadstrongLogo-Tagline.svg"
+				/>
+			</a>
+
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -84,7 +79,6 @@
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
 	      <ul class="nav navbar-nav navbar-right">
 	        <li>
 		        <a
