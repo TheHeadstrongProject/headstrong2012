@@ -29,13 +29,14 @@
 				</a>
 	   	</div>
 		   <div class="col-xs-6 col-md-9">
-			   <div class="header__sm-block">
+			   <div id="social-media" class="social-media">
 			   	<a
 						data-ga-action="clicked on social media"
 						data-ga-category="instagram"
 						data-ga-label="header"
 				   	href="https://www.instagram.com/getheadstrong/"
-				   	class="header__sm-link ga-track"
+				   	class="social-media__link ga-track"
+				   	target="_blank"
 				   	title="The Headstrong Project Facebook"
 				   >
 						<i class="fa fa-instagram"></i>
@@ -46,7 +47,8 @@
 						data-ga-category="twitter"
 						data-ga-label="header"
 				   	href="https://twitter.com/HeadstrongProj/"
-				   	class="header__sm-link ga-track"
+				   	class="social-media__link ga-track"
+				   	target="_blank"
 				   	title="The Headstrong Project Twitter"
 				   >
 						<i class="fa fa-twitter"></i>
@@ -57,7 +59,8 @@
 						data-ga-category="facebook"
 						data-ga-label="header"
 				   	href="https://www.facebook.com/HeadstrongProject/"
-				   	class="header__sm-link ga-track"
+				   	class="social-media__link ga-track"
+				   	target="_blank"
 				   	title="The Headstrong Project Facebook"
 				   >
 						<i class="fa fa-facebook"></i>

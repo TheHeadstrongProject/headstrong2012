@@ -57,12 +57,44 @@
 
 				   </div>
 
-				   <div class="col-xs-12 col-sm-6 col-md-3 social-media">
-					     <div class="sm-block">
-				   <a href="https://www.facebook.com/HeadstrongProject/" class="sm-button facebook-button">Facebook</a>
-				   <a href="https://twitter.com/HeadstrongProj" class="sm-button twitter-button">Twitter</a>
-				   <a href="https://plus.google.com/+GetheadstrongOrg" class="sm-button google-button">Google+</a>
-				   <a href="mailto:iamheadstrong@getheadstrong.org" class="sm-button email-button">Email</a>
+				   <div class="col-xs-12 col-sm-6 col-md-3">
+						<div id="social-media" class="social-media">
+					   	<a
+								data-ga-action="clicked on social media"
+								data-ga-category="instagram"
+								data-ga-label="footer"
+						   	href="https://www.instagram.com/getheadstrong/"
+						   	class="social-media__link ga-track"
+						   	target="_blank"
+						   	title="The Headstrong Project Facebook"
+						   >
+								<i class="fa fa-instagram"></i>
+							</a>
+
+							<a
+								data-ga-action="clicked on social media"
+								data-ga-category="twitter"
+								data-ga-label="footer"
+						   	href="https://twitter.com/HeadstrongProj/"
+						   	class="social-media__link ga-track"
+						   	target="_blank"
+						   	title="The Headstrong Project Twitter"
+						   >
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a
+								data-ga-action="clicked on social media"
+								data-ga-category="facebook"
+								data-ga-label="footer"
+						   	href="https://www.facebook.com/HeadstrongProject/"
+						   	class="social-media__link ga-track"
+						   	target="_blank"
+						   	title="The Headstrong Project Facebook"
+						   >
+								<i class="fa fa-facebook"></i>
+							</a>
+				   	</div>
 				   </div>
 
 				   </div>

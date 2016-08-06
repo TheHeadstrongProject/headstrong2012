@@ -31,41 +31,6 @@
   z-index: 99;
 }
 
-.header__sm-block {
-  float: right;
-  margin-top: 12px;
-}
-
-.header__sm-link {
-  background-color: #b2b2b2;
-  border-radius: 50%;
-  color: rgba(255, 255, 255, 0.87);;
-  display: block;
-  float: right;
-  font-size: 14px;
-  height: 24px;
-  line-height: 24px;
-  margin-right: 8px;
-  text-align: center;
-  width: 24px;
-}
-
-/* maintain order */
-.header__sm-link:focus,
-.header__sm-link:hover,
-.header__sm-link:active {
-  background-color: black;
-  color: rgba(255, 255, 255, 0.87);;
-}
-
-.header__sm-link--fb {
-  background-position: 0 0;
-}
-
-.header__sm-link--tw {
-  background-position: 0 0;
-}
-
 @media (min-width: 992px) {
 
 .header__logo-link {
@@ -192,8 +157,6 @@
 
 }
 
-/*----------------------------------------------------------------------------*/
-
 /*---------------------------- Humans of New York ----------------------------*/
 
 .hony {
@@ -256,6 +219,35 @@
 .hony__title {
   color: #eee;
   max-width: 400px;
+}
+
+/* Social Media --------------------------------------------------------------*/
+
+.social-media {
+  float: right;
+  margin-top: 12px;
+}
+
+#social-media .social-media__link {
+  background-color: #b2b2b2;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.87);
+  display: block;
+  float: right;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 8px;
+  text-align: center;
+  width: 24px;
+}
+
+/* maintain order */
+#social-media .social-media__link:focus,
+#social-media .social-media__link:hover,
+#social-media .social-media__link:active {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.87);;
 }
 
 /*----------------------------------------------------------------------------*/
