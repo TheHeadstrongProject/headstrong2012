@@ -8,8 +8,8 @@
           <div class="hony__content">
             <h1 class="hony__title">We're on Humans of New York</h1>
             <p class="hony__p">Out clients inspire us every day with stories worth sharing.</p>
-            <button class="hony__button">Get Help</button>
-            <button class="hony__button">Donate</button>
+            <a class="hony__button" href="/get-help">Get Help</a>
+            <a class="hony__button" href="/donate">Donate</a>
           </div>
           </div>
         </div>
