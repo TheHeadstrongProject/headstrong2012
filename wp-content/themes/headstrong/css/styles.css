@@ -51,17 +51,21 @@
   max-width: none;
 }
 
+}
+
 /*----------------------------- Get Help -------------------------------------*/
 
 .get-help__form-box {
-  background-color: rgba(255, 255, 255, 0.88);
+  background-color: rgba(255, 255, 255, 0.96);
   padding: 20px;
 }
 
 /*----------------------------- Get Help Form --------------------------------*/
 
 .get-help-form {
-
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 .get-help-form__input {
@@ -74,13 +78,53 @@
   font-size: 16px;
   font-weight: normal;
   display: block;
->>>>>>> try return url
+  margin: 24px 0 4px 0;
+}
+
+.get-help-form__select {
+  font-size: 18px;
+  max-width: 480px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.get-help-form__submit {
+  color: rgba(255, 255, 255, 0.96);
+  display: inline-block;
+  background-color: #346094;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: none;
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 24px;
+  outline: none;
+  margin: 36px 0 0 0;
+  padding: 10px 12px;
+}
+
+.get-help-form__submit:focus,
+.get-help-form__submit:hover,
+.get-help-form__submit:active {
+  color: rgba(255, 255, 255, 0.96);
+  background-color: #27486e;
+  text-decoration: none;
+}
+
+.get-help-form__submit-box {
+  text-align: right;
+}
+
+.get-help-form__textarea {
+  font-size: 18px;
+  padding: 8px 12px;
+  width: 100%;
 }
 
 /*----------------------------- Homepage -------------------------------------*/
 
 .homepage__above-the-fold {
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.96);
   font-size: 0;
 }
 
@@ -123,7 +167,7 @@
 }
 
 .homepage__cta {
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.96);
   display: inline-block;
   background-color: #c1272c;
   border: 0;
@@ -141,7 +185,7 @@
 .homepage__cta:focus,
 .homepage__cta:hover,
 .homepage__cta:active {
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.96);
   background-color: #d2282d;
   text-decoration: none;
 }
@@ -270,7 +314,7 @@
 #social-media .social-media__link {
   background-color: #b2b2b2;
   border-radius: 50%;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.96);
   display: inline-block;
   font-size: 14px;
   height: 24px;
@@ -285,7 +329,7 @@
 #social-media .social-media__link:hover,
 #social-media .social-media__link:active {
   background-color: black;
-  color: rgba(255, 255, 255, 0.87);;
+  color: rgba(255, 255, 255, 0.96);;
 }
 
 /*----------------------------------------------------------------------------*/
