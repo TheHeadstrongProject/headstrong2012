@@ -102,7 +102,7 @@ $news = new WP_Query($args);
 
 				<div class="twitter-feed">
 				<h2 class="reduced">@HeadstrongProj on Twitter</h2>
-					<?php //db_twitter_feed() ?>
+					<?php db_twitter_feed() ?>
 
 				</div>
 
