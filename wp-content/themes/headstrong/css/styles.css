@@ -68,6 +68,12 @@
   max-width: 640px;
 }
 
+.get-help-form__crisis {
+  display: inline-block;
+  margin: 20px 20px 0 0;
+  max-width: 480px;
+}
+
 .get-help-form__input {
   font-size: 18px;
   padding: 8px 12px;
@@ -98,8 +104,9 @@
   font-family: "Roboto Condensed";
   font-weight: bold;
   font-size: 24px;
+  float: right;
   outline: none;
-  margin: 36px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 10px 12px;
 }
 
@@ -109,10 +116,6 @@
   color: rgba(255, 255, 255, 0.96);
   background-color: #27486e;
   text-decoration: none;
-}
-
-.get-help-form__submit-box {
-  text-align: right;
 }
 
 .get-help-form__textarea {

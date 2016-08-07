@@ -56,8 +56,12 @@
   <label class="get-help-form__label" for="00N370000060fwH">Message</label>
   <textarea class="get-help-form__textarea" id="00N370000060fwH" name="00N370000060fwH" rows="3" type="text" wrap="soft"></textarea>
 
-  <div class="get-help-form__submit-box">
+  <div>
     <input class="get-help-form__submit" type="submit" name="submit">
+    <div class="get-help-form__crisis">
+      <h3>If you are in immediate crisis:</h3>
+      <img src="/wp-content/uploads/2016/03/veterans-crisis-line.png" class="img-responsive" alt="Veterans' crisis line: 1-800-273-8255 press 1" width="230" height="77">
+    </div>
   </div>
 
   <!--
