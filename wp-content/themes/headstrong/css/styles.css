@@ -545,10 +545,6 @@
   padding: 0 0 24px 0;
 }
 
-.hony__a {
-  color: orange;
-}
-
 .hony__above-the-fold {
   background-image: url(../img/hony_img.jpg);
   background-position: center;
@@ -558,9 +554,18 @@
   padding: 10% 0;
 }
 
+.hony__body {
+  color: rgba(255, 255, 0.87);
+}
+
+.hony__body-video {
+  margin: 30px auto 0 auto;
+  max-width: 600px;
+}
+
 .hony__button {
   color: #eee;
-  background-color: #333;
+  background-color: #c1272c;
   border: 0;
   border-radius: 12px;
   box-shadow: none;
@@ -571,38 +576,15 @@
 }
 
 .hony__content {
-  color: green;
+  color: rgba(255, 255, 0.87);
 }
 
 .hony__p {
+  color: rgba(255, 255, 0.87);
   max-width: 400px;
 }
 
-.hony__profile {
-  margin: 24px 0;
-  padding: 20px 0;
-}
-
-.hony__profile-p {
-  font-size: 18px;
-}
-
-.hony__profile-picture {
-  background-color: #666;
-  border-radius: 50%;
-  height: 0;
-  padding: 0 0 100% 0;
-  width: 100%;
-}
-
-.hony__profile-picture-container {
-  margin: 24px auto;
-  max-width: 240px;
-  width: 100%;
-}
-
 .hony__title {
-  color: green;
   max-width: 400px;
 }
 
