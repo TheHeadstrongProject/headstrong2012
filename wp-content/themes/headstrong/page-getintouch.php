@@ -15,7 +15,7 @@
 <?php get_header(); ?>
 	<div class="getintouch-page">
 		<?php while (have_posts()) : the_post(); ?>
-			<section class="overlapHeroBanner contactFormBanner">
+			<section id="get-help__hero-form-box" class="overlapHeroBanner contactFormBanner">
 				<div class="overlapHeroBannerImage" style="background-image: url(<?php echo wp_get_attachment_url(get_post_meta($post->ID, 'banner_image', true)); ?>)">
 				</div>
 				<div class="mobile-bg dark">

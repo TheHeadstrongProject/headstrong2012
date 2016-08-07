@@ -55,8 +55,12 @@
 
 /*----------------------------- Get Help -------------------------------------*/
 
+#get-help__hero-form-box {
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .get-help__form-box {
-  background-color: rgba(255, 255, 255, 0.96);
+  background-color: rgba(255, 255, 255, 1);
   padding: 20px;
 }
 
