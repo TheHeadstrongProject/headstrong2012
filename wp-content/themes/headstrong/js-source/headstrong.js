@@ -196,6 +196,128 @@ var GoogleAnalytics = (function() {
   };
 }());
 
+// Donate ----------------------------------------------------------------------
+
+var Donate = function() {
+  var $el = $('#js-donate-form');
+  var $recurring = $('#js-donate-form__recurring');
+
+  var state = {
+    type: 'one-time', // one-time or recurring
+  }
+
+  var init = function() {
+    display();
+    bindAmountBtns();
+    bindNextBtns();
+    bindSubmitBtn();
+    bindTypeBtns();
+  };
+
+  var bindAmountBtns = function() {
+    var sel = '.donate-form__amount-btn';
+
+    $el.on('click', sel, function() {
+      var val = $(this).data('value');
+
+      $('#donate-form__amount').val(val);
+      $('#js-donate-form__next-1').trigger('click');
+    });
+  };
+
+  var bindNextBtns = function() {
+
+    // stage 1
+    $el.on('click', '#js-donate-form__next-1', function() {
+      $('.donate-form__stage').removeClass('donate-form__stage--active');
+      $('.donate__progress--2').addClass('donate__progress--active');
+      $('#donate-form__stage-2').addClass('donate-form__stage--active');
+    });
+  };
+
+  var bindSubmitBtn = function() {
+    $el.on('click', '#js-donate-form__submit', function(e) {
+      e.preventDefault();
+
+      handleSubmit();
+    });
+  };
+
+  var bindTypeBtns = function() {
+    $el.on('click', '#js-donate-form__change-to-one-time', function() {
+      $('.donate-form__stage').removeClass('donate-form__stage--active');
+      $('#donate-form__stage-one-time-1').addClass('donate-form__stage--active');
+      $recurring.prop('checked', false);
+
+      state.type = 'one-time';
+    });
+
+    $el.on('click', '#js-donate-form__change-to-recurring', function() {
+      $('.donate-form__stage').removeClass('donate-form__stage--active');
+      $('#donate-form__stage-recurring-1').addClass('donate-form__stage--active');
+      $recurring.prop('checked', true);
+
+      state.type = 'recurring';
+    });
+  };
+
+  var display = function() {
+    var location  = window.location.toString();
+    var paramsStr = location.split( '?' )[1];
+
+    if (paramsStr) {
+      var paramsArr = paramsStr.split('&');
+
+      for (var i = 0; i < paramsArr.length; i++) {
+        var paramArr = paramsArr[i].split( '=' );
+        if (paramArr[0] === 'recurring') {
+          state.type = 'recurring';
+          $recurring.prop('checked', true);
+        }
+      }
+    }
+
+    if (state.type === 'recurring') {
+      $('#donate-form__stage-recurring-1').addClass('donate-form__stage--active');
+      return;
+    }
+
+    $('#donate-form__stage-one-time-1').addClass('donate-form__stage--active');
+  }
+
+  var handleSubmit = function() {
+    var classyURL  = 'https://www.classy.org/checkout/donation?cid=8919';
+    var fields = $el.serializeArray();
+
+    if (state.type === 'recurring') {
+      classyURL += '&recurring=1';
+    }
+
+    var fullClassyURL = fields.reduce(function(classyParams, field) {
+      switch (field.name) {
+        case 'first_name':
+          return classyParams + '&first=' + field.value;
+        case 'last_name':
+          return classyParams + '&last=' + field.value;
+        case '00N370000064aaY':
+          return classyParams + '&amount=' + field.value;
+        case 'email':
+          return classyParams + '&email=' + field.value;
+        case 'phone':
+          return classyParams + '&phone=' + field.value;
+        default:
+          return classyParams;
+      }
+    }, classyURL);
+
+    $('#donate-form__ret-url').val(fullClassyURL);
+
+    $el.submit();
+  };
+
+  init();
+};
+
 // -------- document.ready
 
 $(document).ready(function(){
@@ -219,21 +341,7 @@ $(document).ready(function(){
         window.open(this.href, '_blank');
 	});
 
-  //------------------
-  // donate
-  $(document).on('click', '.donate__next', function() {
-    var target = $(this).data('target');
-
-    if (target) {
-      $('#donate__stage-1').hide();
-      $('#donate__stage-2').hide();
-
-      if (target == 3) {
-        alert('taking to classy');
-      }
-
-      $('#donate__stage-' + target).show();
-    }
-  });
-
+  if ($('.js-donate').length > 0) {
+    new Donate();
+  }
 });
