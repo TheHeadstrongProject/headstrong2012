@@ -43,7 +43,7 @@
 		   	href="https://www.instagram.com/getheadstrong/"
 		   	class="social-media__link ga-track"
 		   	target="_blank"
-		   	title="The Headstrong Project Facebook"
+		   	title="The Headstrong Project Instagram"
 		   >
 				<i class="fa fa-instagram"></i>
 			</a>

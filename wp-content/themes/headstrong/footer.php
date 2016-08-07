@@ -46,14 +46,14 @@
 						<div id="social-media" class="social-media">
 							<a
 								data-ga-action="clicked on social media"
-								data-ga-category="instagram"
+								data-ga-category="facebook"
 								data-ga-label="footer"
-						   	href="https://www.instagram.com/getheadstrong/"
+						   	href="https://www.facebook.com/HeadstrongProject/"
 						   	class="social-media__link ga-track"
 						   	target="_blank"
 						   	title="The Headstrong Project Facebook"
-						  >
-								<i class="fa fa-instagram"></i>
+						   >
+								<i class="fa fa-facebook"></i>
 							</a>
 
 							<a
@@ -70,14 +70,14 @@
 
 							<a
 								data-ga-action="clicked on social media"
-								data-ga-category="facebook"
+								data-ga-category="instagram"
 								data-ga-label="footer"
-						   	href="https://www.facebook.com/HeadstrongProject/"
+						   	href="https://www.instagram.com/getheadstrong/"
 						   	class="social-media__link ga-track"
 						   	target="_blank"
-						   	title="The Headstrong Project Facebook"
-						   >
-								<i class="fa fa-facebook"></i>
+						   	title="The Headstrong Project Instagram"
+						  >
+								<i class="fa fa-instagram"></i>
 							</a>
 				   	</div>
 					</div>
