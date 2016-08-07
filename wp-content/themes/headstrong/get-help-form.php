@@ -4,8 +4,9 @@
   method="POST"
   validate
 >
-  <input type=hidden name="oid" value="00D37000000JqjL">
-  <input type=hidden name="retURL" value="<?php echo home_url() . '/get-help'; ?>">
+  <input type="hidden" name="oid" value="00D37000000JqjL">
+  <input type="hidden" id="lead_source" name="lead_source" value="Web to Lead" />
+  <input type="hidden" name="retURL" value="<?php echo home_url() . '/get-help'; ?>">
 
   <label class="get-help-form__label" for="first_name">
     First Name
