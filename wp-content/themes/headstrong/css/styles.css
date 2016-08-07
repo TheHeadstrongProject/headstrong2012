@@ -64,8 +64,8 @@
 
 .get-help-form {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0;
   margin: 0 auto;
-  max-width: 640px;
 }
 
 .get-help-form__crisis {
@@ -122,6 +122,21 @@
   font-size: 18px;
   padding: 8px 12px;
   width: 100%;
+}
+
+@media (min-width: 992px) {
+
+.get-help-form__group {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  vertical-align: top;
+  width: calc(50% - 10px);
+}
+
+.get-help-form__group:nth-of-type(even) {
+  margin: 0 0 0 10px;
+}
+
 }
 
 /*----------------------------- Homepage -------------------------------------*/
