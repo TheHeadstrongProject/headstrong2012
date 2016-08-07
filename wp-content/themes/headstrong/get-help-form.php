@@ -57,7 +57,14 @@
   <textarea class="get-help-form__textarea" id="00N370000060fwH" name="00N370000060fwH" rows="3" type="text" wrap="soft"></textarea>
 
   <div>
-    <input class="get-help-form__submit" type="submit" name="submit">
+    <input
+      class="ga-track get-help-form__submit"
+      data-ga-action="clicked on form submit"
+      data-ga-category="get-help"
+      data-ga-label="get-help"
+      name="submit"
+      type="submit"
+    />
     <div class="get-help-form__crisis">
       <h3>If you are in immediate crisis:</h3>
       <img src="/wp-content/uploads/2016/03/veterans-crisis-line.png" class="img-responsive" alt="Veterans' crisis line: 1-800-273-8255 press 1" width="230" height="77">
