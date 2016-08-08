@@ -87,11 +87,11 @@
 											class="donate-form__amount-btn ga-track"
 											data-ga-action="clicked on amount"
 											data-ga-category="donate"
-											data-ga-label="one-time 20"
-											data-value="20"
+											data-ga-label="one-time 25"
+											data-value="25"
 											type="button"
 										>
-											$20
+											$25
 										</button>
 									</div>
 
@@ -100,11 +100,11 @@
 											class="donate-form__amount-btn ga-track"
 											data-ga-action="clicked on amount"
 											data-ga-category="donate"
-											data-ga-label="one-time 1\30"
-											data-value="30"
+											data-ga-label="one-time 250"
+											data-value="250"
 											type="button"
 										>
-											$30
+											$250
 										</button>
 									</div>
 								</div>
@@ -134,7 +134,7 @@
 									data-ga-label="one-time stage-1"
 									href="/donate/?recurring"
 								>
-									Click here to become a recurring donor
+									Click here to become a monthly donor
 								</a>
 							</div>
 						</div>
