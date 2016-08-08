@@ -467,7 +467,7 @@
 }
 
 .homepage__cta {
-  color: rgba(255, 255, 255, 0.96);
+  color: white;
   display: inline-block;
   background-color: #c1272c;
   border: 0;
@@ -485,7 +485,7 @@
 .homepage__cta:focus,
 .homepage__cta:hover,
 .homepage__cta:active {
-  color: rgba(255, 255, 255, 0.96);
+  color: white;
   background-color: #d2282d;
   text-decoration: none;
 }
@@ -551,11 +551,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  padding: 10% 0;
+  padding: 16% 0 4% 0;
 }
 
 .hony__body {
-  color: rgba(255, 255, 0.87);
+  color: rgba(0, 0, 0, 0.87);
+  padding: 24px 0;
 }
 
 .hony__body-video {
@@ -564,28 +565,46 @@
 }
 
 .hony__button {
-  color: #eee;
+  color: white;
+  display: inline-block;
   background-color: #c1272c;
   border: 0;
   border-radius: 12px;
   box-shadow: none;
   font-size: 24px;
   outline: none;
-  margin: 36px 30px 0 0;
+  margin: 12px 30px 0 0;
   padding: 10px 12px;
 }
 
+.hony__button:focus,
+.hony__button:hover,
+.hony__button:active {
+  background-color: #d2282d;
+  color: white;
+  text-decoration: none;
+}
+
 .hony__content {
-  color: rgba(255, 255, 0.87);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .hony__p {
-  color: rgba(255, 255, 0.87);
-  max-width: 400px;
+  margin: 0 auto 20px auto;
+  max-width: 640px;
+}
+
+.hony__subtitle {
+  color: rgba(255, 255, 255, 0.87);
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 .hony__title {
-  max-width: 400px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 /* Social Media --------------------------------------------------------------*/
