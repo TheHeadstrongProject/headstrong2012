@@ -18,7 +18,14 @@
 	<div class="navbar navbar-fixed-top donate__navbar">
 		<div class="donate__logo-container">
 			<div class="donate__logo">
-				<a href="/">
+				<a
+					class="ga-track"
+					data-ga-action="clicked on nav"
+					data-ga-category="home"
+					data-ga-label="header"
+					href="/"
+					title="The Headstrong Project"
+				>
 					<img src="<?php bloginfo('template_url'); ?>/img/headstrong-logo.svg" class="img-responsive" alt="The Headstrong Project" />
 				</a>
 			</div>
@@ -63,19 +70,40 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="10" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="one-time 10"
+											data-value="10"
+											type="button"
+										>
 											$10
 										</button>
 									</div>
 
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="20" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="one-time 20"
+											data-value="20"
+											type="button"
+										>
 											$20
 										</button>
 									</div>
 
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="30" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="one-time 1\30"
+											data-value="30"
+											type="button"
+										>
 											$30
 										</button>
 									</div>
@@ -88,7 +116,16 @@
 							</div>
 
 							<div class="donate__card-footer">
-								<button id="js-donate-form__next-1" class="donate-form__next" type="button">Next</button>
+								<button
+									id="js-donate-form__next-1"
+									class="donate-form__next ga-track"
+									data-ga-action="clicked on next"
+									data-ga-category="donate"
+									data-ga-label="one-time stage-1"
+									type="button"
+								>
+									Next
+								</button>
 							</div>
 						</div>
 					</div>
@@ -120,7 +157,16 @@
 							</div>
 
 							<div class="donate__card-footer">
-								<button id="js-donate-form__submit" class="donate-form__next" type="submit">Next</button>
+								<button
+									id="js-donate-form__submit"
+									class="donate-form__next ga-track"
+									data-ga-action="clicked on next"
+									data-ga-category="donate"
+									data-ga-label="stage-2"
+									type="submit"
+								>
+									Next
+								</button>
 							</div>
 						</div>
 					</div>
@@ -137,7 +183,14 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="10" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="recurring 10"
+											data-value="10"
+											type="button"
+										>
 											$10
 										</button>
 										<div class="donate-form__recurring-rank">
@@ -146,7 +199,14 @@
 									</div>
 
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="25" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="recurring"
+											data-value="25"
+											type="button"
+										>
 											$25
 										</button>
                     <div class="donate-form__recurring-rank">
@@ -155,7 +215,14 @@
 									</div>
 
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="50" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="recurring 50"
+											data-value="50"
+											type="button"
+										>
 											$50
 										</button>
 										<div class="donate-form__recurring-rank">
@@ -164,7 +231,14 @@
 									</div>
 
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="100" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="recurring 100"
+											data-value="100"
+											type="button"
+										>
 											$100
 										</button>
 										<div class="donate-form__recurring-rank">
@@ -173,7 +247,14 @@
 									</div>
 
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="200" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="recurring 200"
+											data-value="200"
+											type="button"
+										>
 											$200
 										</button>
 										<div class="donate-form__recurring-rank">
@@ -182,7 +263,14 @@
 									</div>
 
 									<div class="col-xs-4">
-										<button class="donate-form__amount-btn" data-value="400" type="button">
+										<button
+											class="donate-form__amount-btn ga-track"
+											data-ga-action="clicked on amount"
+											data-ga-category="donate"
+											data-ga-label="recurring 400"
+											data-value="400"
+											type="button"
+										>
 											$400
 										</button>
 										<div class="donate-form__recurring-rank">
@@ -199,12 +287,7 @@
 	</div>
 </div>
 
-
-<!-- Donation Recurring: -->
-
-
 <?php endwhile; ?>
-
 
 <?php
 /**
