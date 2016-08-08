@@ -545,6 +545,10 @@
   padding: 0 0 24px 0;
 }
 
+.hony__a {
+  color: #6c9dc8;
+}
+
 .hony__above-the-fold {
   background-image: url(../img/hony_img.jpg);
   background-position: center;

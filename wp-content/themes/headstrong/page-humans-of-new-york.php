@@ -25,7 +25,7 @@
           <p class="hony__p">
             Brandon Stanton started
             <a
-              class="ga-track"
+              class="ga-track hony__a"
               data-ga-action="clicked on link"
               data-ga-category="hony"
               data-ga-label="humans-of-new-york body"
@@ -38,7 +38,7 @@
           <p class="hony__p">
             Now, he’s working with us to tell our
             <a
-              class="ga-track"
+              class="ga-track hony__a"
               data-ga-action="clicked on link"
               data-ga-category="about-us"
               data-ga-label="humans-of-new-york body"
@@ -48,7 +48,7 @@
             </a>
             and change the lives of veterans in
             <a
-            class="ga-track"
+            class="ga-track hony__a"
             data-ga-action="clicked on link"
             data-ga-category="donate"
             data-ga-label="humans-of-new-york body"
