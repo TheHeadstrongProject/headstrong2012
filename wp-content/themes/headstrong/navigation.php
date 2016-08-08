@@ -113,7 +113,54 @@
         			News
       			</a>
     			</li>
-	        <li class="dropdown">
+    			<li>
+	        	<a
+							class="header__dropdown-toggle ga-track"
+							data-ga-action="clicked on nav"
+							data-ga-category="about-us"
+							data-ga-label="header"
+							data-toggle="dropdown"
+							href="/about-us"
+        		>
+        			About us
+        		</a>
+      		</li>
+    			<li>
+						<a
+							class="header__dropdown-toggle ga-track"
+							data-ga-action="clicked on nav"
+      				data-ga-category="meet-the-team"
+      				data-ga-label="header"
+							href="/about-us/meet-the-team/"
+						>
+							Meet the team
+						</a>
+					</li>
+					<li>
+						<a
+							class="header__dropdown-toggle ga-track"
+							data-ga-action="clicked on nav"
+      				data-ga-category="contact-us"
+      				data-ga-label="header"
+							href="/about-us/contact-us/"
+						>
+							Contact us
+						</a>
+					</li>
+					<li>
+						<a
+							class="header__dropdown-toggle ga-track"
+							data-ga-action="clicked on nav"
+      				data-ga-category="privacy-policy"
+      				data-ga-label="header"
+							href="/about-us/privacy-policy/"
+						>
+							Privacy
+						</a>
+					</li>
+
+    			<!-- dropdown -->
+	        <li id="header__about-us" class="dropdown">
 	        	<a
 							aria-expanded="false"
 							aria-haspopup="true"
@@ -163,7 +210,6 @@
 								</a>
 							</li>
 	        	</ul>
-
 	        </li>
 	        <li class="donateLink">
 	        	<a

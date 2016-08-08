@@ -2,6 +2,10 @@
 
 /*----------------------------- Header ---------------------------------------*/
 
+#header__about-us {
+  display: none;
+}
+
 #header__donate-link {
   color: #c1272c;
 }
@@ -43,6 +47,18 @@
 .header__sm {
   margin: 0 auto;
   max-width: 1170px;
+}
+
+@media (min-width: 768px) {
+
+#header__about-us {
+  display: block;
+}
+
+.header__dropdown-toggle {
+  display: none !important;
+}
+
 }
 
 @media (min-width: 992px) {
