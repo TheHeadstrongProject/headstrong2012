@@ -14,10 +14,20 @@
     </div>
   </div>
 
-
   <div class="hony__body">
     <div class="container">
       <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328445937229503%3A0&width=500" width="100%" height="516" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328570737217023%3A0&width=500" width="100%" height="516" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328636300543800%3A0&width=500" width="100%" height="516" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
         <div class="col-xs-12">
           <p class="hony__p">
             We’re honored that Humans of New York (HONY) is featuring our clients, the brave veterans of Iraq and Afghanistan, as well as the trauma clinicians who are moving mountains to help them.
