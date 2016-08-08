@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body a:hover, a:focus {
+  color: #5083bf;
+  text-decoration: none;
+}
+
 /*----------------------------- Header ---------------------------------------*/
 
 #header__about-us {
@@ -381,6 +386,12 @@
 
 .donate-form__recurring {
   display: none;
+}
+
+.donate-form__recurring-a {
+  display: block;
+  margin: 24px 0 0 0;
+  font-size: 16px;
 }
 
 .donate-form__recurring-rank {

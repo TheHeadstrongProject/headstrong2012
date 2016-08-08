@@ -126,6 +126,16 @@
 								>
 									Next
 								</button>
+
+								<a
+									class="donate-form__recurring-a ga-track"
+									data-ga-action="clicked on recurring"
+									data-ga-category="donate"
+									data-ga-label="one-time stage-1"
+									href="/donate/?recurring"
+								>
+									Click here to become a recurring donor
+								</a>
 							</div>
 						</div>
 					</div>
