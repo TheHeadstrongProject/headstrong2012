@@ -37,8 +37,6 @@
 	  </style>
 	<![endif]-->
 
-
-
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,600italic,700,700italic,400italic,300,300italic' rel='stylesheet' type='text/css'>
 
@@ -49,8 +47,10 @@
 
 <body <?php body_class(); ?>>
 	<?php include_once('templates/layout/analytics.php') ?>
-	<?php get_template_part( 'navigation' ); ?>
 
+	<?php
+		if (!is_page('donate'))
+			get_template_part('navigation');
+	?>
 
-
-
+	<?php get_template_part('hony-cta'); ?>

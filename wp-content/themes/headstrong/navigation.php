@@ -106,7 +106,7 @@
 	        	<a
 	        		class="ga-track"
 							data-ga-action="clicked on nav"
-		      		data-ga-category="donate"
+		      		data-ga-category="news"
 		      		data-ga-label="header"
 	        		href="/about-us/news/"
         		>
