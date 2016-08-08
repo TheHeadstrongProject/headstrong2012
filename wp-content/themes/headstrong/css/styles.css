@@ -440,9 +440,9 @@
 
 .homepage__panel-container {
   background-image: url(../img/Headstrong-Image1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .homepage__panel-container.homepage__panel-container--secondary {
@@ -467,7 +467,7 @@
 }
 
 .homepage__cta {
-  color: rgba(255, 255, 255, 0.96);
+  color: white;
   display: inline-block;
   background-color: #c1272c;
   border: 0;
@@ -485,7 +485,7 @@
 .homepage__cta:focus,
 .homepage__cta:hover,
 .homepage__cta:active {
-  color: rgba(255, 255, 255, 0.96);
+  color: white;
   background-color: #d2282d;
   text-decoration: none;
 }
@@ -545,62 +545,66 @@
   padding: 0 0 24px 0;
 }
 
-.hony__a {
-  color: orange;
+.hony__above-the-fold {
+  background-image: url(../img/hony_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 16% 0 4% 0;
 }
 
-.hony__above-the-fold {
-  background-color: #666;
-  height: auto;
-  padding: 10% 0;
+.hony__body {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 24px 0;
+}
+
+.hony__body-video {
+  margin: 30px auto 0 auto;
+  max-width: 600px;
 }
 
 .hony__button {
-  color: #eee;
-  background-color: #333;
+  color: white;
+  display: inline-block;
+  background-color: #c1272c;
   border: 0;
-  border-radius: 5px;
+  border-radius: 12px;
   box-shadow: none;
   font-size: 24px;
   outline: none;
-  margin: 36px 0 0 0;
+  margin: 12px 30px 0 0;
   padding: 10px 12px;
 }
 
+.hony__button:focus,
+.hony__button:hover,
+.hony__button:active {
+  background-color: #d2282d;
+  color: white;
+  text-decoration: none;
+}
+
 .hony__content {
-  color: #eee;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .hony__p {
-  max-width: 400px;
+  margin: 0 auto 20px auto;
+  max-width: 640px;
 }
 
-.hony__profile {
-  margin: 24px 0;
-  padding: 20px 0;
-}
-
-.hony__profile-p {
-  font-size: 18px;
-}
-
-.hony__profile-picture {
-  background-color: #666;
-  border-radius: 50%;
-  height: 0;
-  padding: 0 0 100% 0;
-  width: 100%;
-}
-
-.hony__profile-picture-container {
-  margin: 24px auto;
-  max-width: 240px;
-  width: 100%;
+.hony__subtitle {
+  color: rgba(255, 255, 255, 0.87);
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 .hony__title {
-  color: #eee;
-  max-width: 400px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 /* Social Media --------------------------------------------------------------*/
@@ -6758,7 +6762,6 @@ footer {
     color: #333;
     font-weight: 700;
     font-size: 1.6rem; }
-  footer a:link, footer a:visited {
     color: #333; }
   footer ul {
     margin: 0;
