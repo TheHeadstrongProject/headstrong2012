@@ -115,7 +115,7 @@
     			</li>
     			<li>
 	        	<a
-							class="ga-track"
+							class="ga-track header__dropdown-toggle"
 							data-ga-action="clicked on nav"
 							data-ga-category="about-us"
 							data-ga-label="header"
@@ -126,7 +126,7 @@
       		</li>
     			<li>
 						<a
-							class="ga-track"
+							class="ga-track header__dropdown-toggle"
 							data-ga-action="clicked on nav"
       				data-ga-category="meet-the-team"
       				data-ga-label="header"
@@ -137,7 +137,7 @@
 					</li>
 					<li>
 						<a
-							class="ga-track"
+							class="ga-track header__dropdown-toggle"
 							data-ga-action="clicked on nav"
       				data-ga-category="contact-us"
       				data-ga-label="header"
@@ -148,7 +148,7 @@
 					</li>
 					<li>
 						<a
-							class="ga-track"
+							class="ga-track header__dropdown-toggle"
 							data-ga-action="clicked on nav"
       				data-ga-category="privacy-policy"
       				data-ga-label="header"
