@@ -17,23 +17,9 @@
   <div class="hony__body">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-4">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328445937229503%3A0&width=500" width="100%" height="516" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </div>
-
-        <div class="col-xs-12 col-md-4">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328570737217023%3A0&width=500" width="100%" height="516" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </div>
-
-        <div class="col-xs-12 col-md-4">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328636300543800%3A0&width=500" width="100%" height="516" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </div>
         <div class="col-xs-12">
           <p class="hony__p">
-            We’re honored that Humans of New York (HONY) is featuring our clients, the brave veterans of Iraq and Afghanistan, as well as the trauma clinicians who are moving mountains to help them.
-          </p>
-          <p class="hony__p">
-            Brandon Stanton started
+            We’re honored that
             <a
               class="ga-track hony__a"
               data-ga-action="clicked on link"
@@ -42,12 +28,12 @@
               href="http://www.humansofnewyork.com/"
               title="Humans of New York"
             >
-              HONY
+              Humans of New York
             </a>
-            as a simple photography project in 2010. Since then, his powerful storytelling has opened our hearts to strangers from every corner of the globe.
+              (HONY) is featuring our clients, the brave veterans of Iraq and Afghanistan, as well as the trauma clinicians who are moving mountains to help them.
           </p>
           <p class="hony__p">
-            Now, he’s working with us to tell our
+            Brandon Stanton started HONY as a simple photography project in 2010. Since then, his powerful storytelling has opened our hearts to strangers from every corner of the globe. Now, he’s working with us to tell our
             <a
               class="ga-track hony__a"
               data-ga-action="clicked on link"
@@ -69,17 +55,26 @@
             >
               need.
             </a>
+          </p>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="hony__fb-embed">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328445937229503%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          </div>
+        </div>
+
+        <div class="col-xs-12">
+          <p class="hony__p">
             The Headstrong Project provides free mental health care to veterans of Iraq and Afghanistan, delivered by world-class clinicians. And with your support, we can extend our proven program to reach more veterans in need.
           </p>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-xs-12">
-          <div class="hony__p">
+          <div class="hony__cta-container">
             <a
               class="ga-track hony__button"
-              data-ga-action="clicked on link"
+              data-ga-action="clicked on cta"
               data-ga-category="get-help"
               data-ga-label="humans-of-new-york body"
               href="/get-help"
@@ -103,7 +98,74 @@
 
       <div class="row">
         <div class="col-xs-12">
+          <div class="hony__feature">
+            <h2 class="hony__h2">Frank, former U.S. Army Staff Sergeant</h2>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328570737217023%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328636300543800%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328668883873875%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328670400540390%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328833350524095%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hony__feature">
+            <h2 class="hony__h2">Jenny, former U.S. Army Medic</h2>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1329583107115786%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1329624743778289%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1329796633761100%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
           <div class=hony__body-video>
+            <p class="hony__body-video-title">
+              Learn more about Headstrong:
+            </p>
             <div class="nested-video"><div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/To4r0cQttcQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>
           </div>
         </div>
