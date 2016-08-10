@@ -621,7 +621,7 @@
 }
 
 .hony__fb-embed {
-  margin: 12px auto -15px 0;
+  margin: 12px auto -15px auto;
   max-width: 500px;
 }
 
