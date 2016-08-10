@@ -40,7 +40,8 @@
               data-ga-category="hony"
               data-ga-label="humans-of-new-york body"
               href="http://www.humansofnewyork.com/"
-              >
+              title="Humans of New York"
+            >
               HONY
             </a>
             as a simple photography project in 2010. Since then, his powerful storytelling has opened our hearts to strangers from every corner of the globe.
@@ -53,17 +54,20 @@
               data-ga-category="about-us"
               data-ga-label="humans-of-new-york body"
               href="/about-us"
-              >
+              title="About Us"
+            >
               story
             </a>
             and change the lives of veterans in
             <a
-            class="ga-track hony__a"
-            data-ga-action="clicked on link"
-            data-ga-category="donate"
-            data-ga-label="humans-of-new-york body"
-            href="/donate">
-            need.
+              class="ga-track hony__a"
+              data-ga-action="clicked on link"
+              data-ga-category="donate"
+              data-ga-label="humans-of-new-york body"
+              href="/donate"
+              title="Donate"
+            >
+              need.
             </a>
             The Headstrong Project provides free mental health care to veterans of Iraq and Afghanistan, delivered by world-class clinicians. And with your support, we can extend our proven program to reach more veterans in need.
           </p>
@@ -78,7 +82,9 @@
               data-ga-action="clicked on link"
               data-ga-category="get-help"
               data-ga-label="humans-of-new-york body"
-              href="/get-help">
+              href="/get-help"
+              title="Get Help"
+            >
                 Get Help
             </a>
             <a
@@ -86,7 +92,9 @@
               data-ga-action="clicked on cta"
               data-ga-category="donate"
               data-ga-label="humans-of-new-york body"
-              href="/donate">
+              href="/donate"
+              title="Donate"
+            >
                 Donate Now
             </a>
           </div>
