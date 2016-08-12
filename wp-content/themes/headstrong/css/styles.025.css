@@ -662,6 +662,10 @@
   margin: 36px auto;
 }
 
+.hony__fb-embed--feature {
+  margin: 12px auto;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -671,7 +675,7 @@
   width: 224px;
 }
 
-.hony__fb-embed.hony__fb-embed--feature {
+.hony__fb-embed--feature {
   margin: 0 auto;
 }
 
