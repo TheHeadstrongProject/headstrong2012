@@ -621,7 +621,7 @@
 }
 
 .hony__fb-embed {
-  margin: 12px auto -15px auto;
+  margin: 12px auto -12px auto;
   max-width: 500px;
 }
 
@@ -655,6 +655,19 @@
   max-width: 640px;
 }
 
+@media (min-width: 550px) {
+
+.hony__fb-embed {
+  min-height: 537px;
+  margin: 36px auto;
+}
+
+.hony__fb-embed--feature {
+  margin: 12px auto;
+}
+
+}
+
 @media (min-width: 992px) {
 
 .hony__button {
@@ -662,12 +675,7 @@
   width: 224px;
 }
 
-.hony__fb-embed {
-  min-height: 537px;
-  margin: 36px auto;
-}
-
-.hony__fb-embed.hony__fb-embed--feature {
+.hony__fb-embed--feature {
   margin: 0 auto;
 }
 
