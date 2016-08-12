@@ -20,7 +20,7 @@
 	 <title><?php wp_title(); ?></title>
 	<!-- Bootstrap -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-	<link href="<?php bloginfo('template_url'); ?>/css/styles.024.css" rel="stylesheet">
+	<link href="<?php bloginfo('template_url'); ?>/css/styles.025.css" rel="stylesheet">
 	<!-- <link href="<?php bloginfo('template_url'); ?>/css/styles.css" rel="stylesheet"> -->
 
 	<!--[if lt IE 9]>
