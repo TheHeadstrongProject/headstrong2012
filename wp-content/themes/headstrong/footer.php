@@ -45,40 +45,53 @@
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<div id="social-media" class="social-media">
 							<a
+								class="social-media__link ga-track"
 								data-ga-action="clicked on social media"
 								data-ga-category="facebook"
 								data-ga-label="footer"
-						   	href="https://www.facebook.com/HeadstrongProject/"
-						   	class="social-media__link ga-track"
-						   	target="_blank"
-						   	title="The Headstrong Project Facebook"
+								href="https://www.facebook.com/HeadstrongProject/"
+								target="_blank"
+								title="The Headstrong Project Facebook"
 						   >
 								<i class="fa fa-facebook"></i>
 							</a>
 
 							<a
+								class="social-media__link ga-track"
 								data-ga-action="clicked on social media"
 								data-ga-category="twitter"
 								data-ga-label="footer"
-						   	href="https://twitter.com/HeadstrongProj/"
-						   	class="social-media__link ga-track"
-						   	target="_blank"
-						   	title="The Headstrong Project Twitter"
+								href="https://twitter.com/HeadstrongProj/"
+								target="_blank"
+								title="The Headstrong Project Twitter"
 						   >
 								<i class="fa fa-twitter"></i>
 							</a>
 
 							<a
+								class="social-media__link ga-track"
 								data-ga-action="clicked on social media"
 								data-ga-category="instagram"
 								data-ga-label="footer"
-						   	href="https://www.instagram.com/getheadstrong/"
-						   	class="social-media__link ga-track"
-						   	target="_blank"
-						   	title="The Headstrong Project Instagram"
+								href="https://www.instagram.com/getheadstrong/"
+								target="_blank"
+								title="The Headstrong Project Instagram"
 						  >
 								<i class="fa fa-instagram"></i>
 							</a>
+				   	</div>
+
+				   	<div class="footer__guidestar">
+				   		<a
+								class="ga-track"
+								data-ga-category="awards"
+								data-ga-label="footer"
+				   			data-ga-action="clicked on guidestar"
+				   			href="http://www.guidestar.org/profile/45-5261907"
+				   			target="_blank"
+				   		>
+				   			<img src="<?php bloginfo('template_url'); ?>/img/guidestar-gold.png" />
+				   		</a>
 				   	</div>
 					</div>
 				</div>
