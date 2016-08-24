@@ -303,6 +303,42 @@
 
       <div class="row">
         <div class="col-xs-12">
+          <div class="hony__feature">
+            <h2 class="hony__h2">Sam, U.S. Army Medic</h2>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1342283889179041%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1342296372511126%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hony__feature">
+            <h2 class="hony__h2">Matt, U.S. Marine Corps Infantry</h2>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1343481229059307%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
           <div class=hony__body-video>
             <p class="hony__body-video-title">
               Learn more about Headstrong:
