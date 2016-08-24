@@ -277,7 +277,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="hony__feature">
-            <h2 class="hony__h2">Matt, U.S. Army National Guard</h2>
+            <h2 class="hony__h2">Tommy, Recon Marine Corpsman</h2>
             <div class="row">
               <div class="col-xs-12 col-md-4">
                 <div class="hony__fb-embed hony__fb-embed--feature">
