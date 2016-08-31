@@ -354,6 +354,87 @@
 
       <div class="row">
         <div class="col-xs-12">
+          <div class="hony__feature">
+            <h2 class="hony__h2">Waylon, U.S. Air Force Special Operations</h2>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1346539232086840%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hony__feature">
+            <h2 class="hony__h2">General Mark Graham (Ret.) &amp; Carol Graham, U.S. Army</h2>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1349353505138746%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1349762121764551%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1349837001757063%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1349839578423472%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1349842145089882%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1349848985089198%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hony__feature">
+            <h2 class="hony__h2">Zach, U.S. Marine Corps Officer</h2>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1350975844976512%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="hony__fb-embed hony__fb-embed--feature">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1352088274865269%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
           <div class=hony__body-video>
             <p class="hony__body-video-title">
               Learn more about Headstrong:
