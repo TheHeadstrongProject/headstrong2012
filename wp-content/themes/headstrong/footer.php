@@ -99,8 +99,9 @@
 		</div>
 
 		<div class="row">
-			<div class="col-xs-12 copyright">
-				<p>All photos copyright &copy; <?php echo date("Y"); ?> DVIDSHUB and made available under a Attribution 2.0 Generic license</p>
+			<div class="col-xs-12 col-lg-8 col-lg-offset-2 copyright">
+				<p>Headstrong Project is a registered 501c3 nonprofit organization with headquarters in New York, New York. Headstrong's federal ID number for donations is 45-5261907.</p>
+				<p>All photos copyright &copy; <?php echo date("Y"); ?> DVIDSHUB and made available under a Attribution 2.0 Generic license.</p>
 	    </div>
 		</div>
 	</div>
