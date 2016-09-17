@@ -2,22 +2,13 @@
 <?php while (have_posts()):the_post(); ?>
 <div class="hony">
   <div class="hony__above-the-fold">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hony__content">
-            <h1 class="hony__title">We're on Humans of New York</h1>
-            <p class="hony__subtitle">Our clients inspire us every day with stories worth sharing.</p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
   <div class="hony__body">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
+          <h1 class="center-align-panel hony__title">Headstrong & Humans of New York</h1>
           <p class="hony__p">
             We’re honored that
             <a
@@ -30,10 +21,10 @@
             >
               Humans of New York
             </a>
-              (HONY) is featuring our clients, the brave veterans of Iraq and Afghanistan, as well as the trauma clinicians who are moving mountains to help them.
+              (HONY) has featured our clients, the brave veterans of Iraq and Afghanistan, as well as the trauma clinicians and supportive families who are moving mountains to help them.
           </p>
           <p class="hony__p">
-            Brandon Stanton started HONY as a simple photography project in 2010. Since then, his powerful storytelling has opened our hearts to strangers from every corner of the globe. Now, he’s working with us to tell our
+            Brandon Stanton started HONY as a simple photography project in 2010. Since then, his powerful storytelling has opened our hearts to strangers from every corner of the globe. Now, he’s working with us to tell
             <a
               class="ga-track hony__a"
               data-ga-action="clicked on link"
@@ -42,9 +33,9 @@
               href="/about-us"
               title="About Us"
             >
-              story
+              our story
             </a>
-            and change the lives of veterans in
+            and change the lives of
             <a
               class="ga-track hony__a"
               data-ga-action="clicked on link"
@@ -53,7 +44,7 @@
               href="/donate"
               title="Donate"
             >
-              need.
+              veterans in need.
             </a>
           </p>
         </div>
@@ -62,6 +53,41 @@
           <div class="hony__fb-embed">
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhumansofnewyork%2Fposts%2F1328445937229503%3A0&width=500" width="100%" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
           </div>
+        </div>
+
+        <div class="col-xs-12">
+          <p class="hony__p">
+            We are lucky to serve clients that inspire us everyday with their moving stories, but we were also deeply touched by yours. From comments with simple thoughts of encouragement and gratitude, to personal stories and brave admissions, the response has blown us away.
+          </p>
+          <p class="hony__p">
+            At the end of the Hidden Wound series, chronicled below, Brandon launched a crowd-funding campaign asking viewers to
+            <a
+              class="ga-track hony__a"
+              data-ga-action="clicked on link"
+              data-ga-category="generosity"
+              data-ga-label="humans-of-new-york body"
+              href="https://www.generosity.com/community-fundraising/let-s-help-headstrong-help-veterans"
+              title="Help Headstrong Veterans"
+            >Help Headstrong Help Veterans.
+            </a>
+            HONY fans responded generously, exceeding the $100K goal in a few short hours and raising over half a million dollars with just two days down.
+          </p>
+        </div>
+
+        <div class="col-xs-12">
+          <a
+            class="ga-track"
+            data-ga-action="click on image"
+            data-ga-category="generosity"
+            data-ga-label="humans-of-new-york body"
+            href="https://www.generosity.com/community-fundraising/let-s-help-headstrong-help-veterans"
+            title="Help Headstrong Veterans">
+            <?php $hony_generosity_src = get_template_directory_uri() . '/img/HONYFundraiser.jpg'; ?>
+            <img
+              class="hony__generosity"
+              src="<?php echo $hony_generosity_src; ?>">
+            </img>
+          </a>
         </div>
 
         <div class="col-xs-12">
@@ -480,9 +506,9 @@
         <div class="col-xs-12">
           <div class=hony__body-video>
             <p class="hony__body-video-title">
-              Learn more about Headstrong:
+              Check out more Headstrong x HONY coverage:
             </p>
-            <div class="nested-video"><div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/To4r0cQttcQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>
+            <div class="nested-video"><div class="embed-responsive embed-responsive-16by9"><embed src="http://www.cbsnews.com/common/video/cbsnews_video.swf" scale="noscale" salign="lt" type="application/x-shockwave-flash" background="#000000" width="620" height="387" allowFullScreen="true" allowScriptAccess="always" FlashVars="pType=embed&si=254&pid=n_h_dHaEf_7Y&uuid=8d8d7731-981b-4dd6-83ca-2d5bd423b808&url=http://www.cbsnews.com/videos/veterans-opening-up-to-fight-ptsd" /><div class='cbs-resources'><span class='cbs-more'>View More: </span><a href='http://www.cbsnews.com/health/' class='cbs-link'>Health News</a><span class='cbs-pipe'>|</span><a href='http://www.cbsnews.com/live/' class='cbs-link'>Live News</a><span class='cbs-pipe'>|</span><a href='http://www.cbsnews.com/videos/' class='cbs-link'>More News Videos</a></div><style type='text/css'>.cbs-link {color:#4B5054;text-decoration:none; font: normal 12px Arial;}.cbs-link:hover {color:#A7COFF;text-decoration:none; font: normal 12px Arial;}.cbs-pipe {color:#303435;padding: 0 2px;}.cbs-resources {height:24px; background-color:#000; padding: 0 0 0 8px; width: 612px;}.cbs-more {font: normal 12px Arial; color: #4B5054; padding-right:2px;}</style></div></div>
           </div>
         </div>
       </div>
