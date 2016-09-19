@@ -196,6 +196,25 @@ var GoogleAnalytics = (function() {
   };
 }());
 
+(function($) {
+  var $embeds, sel;
+  sel = '.js-resize-embeds';
+  $embeds = $(sel + ' embed');
+  $embeds.each(function() {
+    var h, w;
+    h = this.height;
+    w = this.width;
+    return $(this).attr('data-aspectRatio', h / w).removeAttr('height').removeAttr('width');
+  });
+  return $(window).resize(function() {
+    var newWidth;
+    newWidth = $(sel).width();
+    return $embeds.each(function() {
+      return $(this).width(newWidth).height(newWidth * $(this).attr('data-aspectRatio'));
+    });
+  }).resize();
+})(jQuery);
+
 // Donate ----------------------------------------------------------------------
 
 var Donate = function() {
