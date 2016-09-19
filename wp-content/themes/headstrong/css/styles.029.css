@@ -580,12 +580,12 @@
 }
 
 .hony__above-the-fold {
-  background-image: url(../img/hony_img.jpg);
+  background-image: url(../img/HeadstrongHONYcollage.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  padding: 16% 0 4% 0;
+  height: 0;
+  padding: 0% 0 37% 0;
 }
 
 .hony__body {
@@ -644,6 +644,10 @@
   padding: 36px 0;
 }
 
+.hony__generosity {
+  margin: 0 auto 40px auto;
+}
+
 .hony__h2 {
   color: #9e9e9e;
   font-family: "Roboto Condensed", sans-serif;
@@ -653,7 +657,7 @@
 
 .hony__p {
   margin: 0 auto 20px auto;
-  max-width: 640px;
+  max-width: 900px;
 }
 
 .hony__subtitle {
@@ -663,10 +667,13 @@
 }
 
 .hony__title {
-  color: white;
-  font-weight: bold;
-  margin: 0 auto;
-  max-width: 640px;
+  color: #6c9dc8;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 4.8rem;
+  margin: 0 auto 20px auto;
+  max-width: 900px;
 }
 
 @media (min-width: 550px) {
