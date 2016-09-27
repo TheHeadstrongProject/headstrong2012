@@ -8,7 +8,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1 class="center-align-panel hony__title">Headstrong & Humans of New York</h1>
+          <h1 class="center-align-panel hony__title">Headstrong Project on Humans of New York!</h1>
           <p class="hony__p">
             We’re honored that
             <a
@@ -60,7 +60,7 @@
             We are lucky to serve clients that inspire us everyday with their moving stories, but we were also deeply touched by yours. From comments with simple thoughts of encouragement and gratitude, to personal stories and brave admissions, the response has blown us away.
           </p>
           <p class="hony__p">
-            At the end of the Hidden Wound series, chronicled below, Brandon launched a crowd-funding campaign asking viewers to
+            At the end of the <i>Invisible Wound</i> series, chronicled below, Brandon launched a crowd-funding campaign asking viewers to
             <a
               class="ga-track hony__a"
               data-ga-action="clicked on link"
@@ -75,24 +75,26 @@
         </div>
 
         <div class="col-xs-12">
-          <a
-            class="ga-track"
-            data-ga-action="click on image"
-            data-ga-category="generosity"
-            data-ga-label="humans-of-new-york body"
-            href="https://www.generosity.com/community-fundraising/let-s-help-headstrong-help-veterans"
-            title="Help Headstrong Veterans">
-            <?php $hony_generosity_src = get_template_directory_uri() . '/img/HONYFundraiser.jpg'; ?>
-            <img
-              class="hony__generosity"
-              src="<?php echo $hony_generosity_src; ?>">
-            </img>
-          </a>
+          <div class="hony__generosity">
+            <a
+              class="ga-track"
+              data-ga-action="click on image"
+              data-ga-category="generosity"
+              data-ga-label="humans-of-new-york body"
+              href="https://www.generosity.com/community-fundraising/let-s-help-headstrong-help-veterans"
+              title="Help Headstrong Veterans">
+              <?php $hony_generosity_src = get_template_directory_uri() . '/img/HONYFundraiser.jpg'; ?>
+                <img
+                  class="hony__generosity__image"
+                  src="<?php echo $hony_generosity_src; ?>">
+                </img>
+            </a>
+          </div>
         </div>
 
         <div class="col-xs-12">
           <p class="hony__p">
-            The Headstrong Project provides free mental health care to veterans of Iraq and Afghanistan, delivered by world-class clinicians. And with your support, we can extend our proven program to reach more veterans in need.
+            Headstrong Project provides free mental health care to veterans of Iraq and Afghanistan, delivered by world-class clinicians. And with your support, we can extend our proven program to reach more veterans in need.
           </p>
         </div>
 
