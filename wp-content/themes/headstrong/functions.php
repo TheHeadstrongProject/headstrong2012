@@ -25,6 +25,15 @@
  * @since Headstrong 1.0
  */
 
+//redirections
+function my_page_template_redirect() {
+  if(is_page('hony')) {
+    wp_redirect(home_url('/humans-of-new-york/'));
+    exit();
+  }
+}
+add_action( 'template_redirect', 'my_page_template_redirect' );
+
 add_theme_support('post-thumbnails');
 add_theme_support( 'title-tag' );
 
@@ -43,8 +52,8 @@ function cc_mime_types($mimes) {
 }
 
 function removeHeadLinks() {
-	remove_action('wp_head', 'rsd_link');
-	remove_action('wp_head', 'wlwmanifest_link');
+    remove_action('wp_head', 'rsd_link');
+    remove_action('wp_head', 'wlwmanifest_link');
 }
 
 function register_main_menu() {
@@ -55,15 +64,15 @@ function register_main_menu() {
 // Replaces the excerpt "more" text by a link
 function new_excerpt_more($more) {
        global $post;
-	return ' <a class="moretag" href="'. get_permalink($post->ID) . '"> Read more...</a>';
+    return ' <a class="moretag" href="'. get_permalink($post->ID) . '"> Read more...</a>';
 }
 
 function wpse_allowedtags() {
     // Add custom tags to this string
-        return '<script>,<style>,<br>,<em>,<i>,<ul>,<ol>,<li>,<a>,<p>,<img>,<video>,<audio>'; 
+        return '<script>,<style>,<br>,<em>,<i>,<ul>,<ol>,<li>,<a>,<p>,<img>,<video>,<audio>';
     }
 
-if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) : 
+if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
 
     function wpse_custom_wp_trim_excerpt($wpse_excerpt) {
     $raw_excerpt = $wpse_excerpt;
@@ -77,7 +86,7 @@ if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
 
             //Set the excerpt word count and only break after sentence is complete.
                 $excerpt_word_count = 75;
-                $excerpt_length = apply_filters('excerpt_length', $excerpt_word_count); 
+                $excerpt_length = apply_filters('excerpt_length', $excerpt_word_count);
                 $tokens = array();
                 $excerptOutput = '';
                 $count = 0;
@@ -85,9 +94,9 @@ if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
                 // Divide the string into tokens; HTML tags, or words, followed by any whitespace
                 preg_match_all('/(<[^>]+>|[^<>\s]+)\s*/u', $wpse_excerpt, $tokens);
 
-                foreach ($tokens[0] as $token) { 
+                foreach ($tokens[0] as $token) {
 
-                    if ($count >= $excerpt_length && preg_match('/[\,\;\?\.\!]\s*$/uS', $token)) { 
+                    if ($count >= $excerpt_length && preg_match('/[\,\;\?\.\!]\s*$/uS', $token)) {
                     // Limit reached, continue until , ; ? . or ! occur at the end
                         $excerptOutput .= trim($token);
                         break;
@@ -102,8 +111,8 @@ if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
 
             $wpse_excerpt = trim(force_balance_tags($excerptOutput));
 
-                $excerpt_end = ' <a href="'. esc_url( get_permalink() ) . '">' . '&nbsp;&raquo;&nbsp;' . sprintf(__( 'Read more about: %s &nbsp;&raquo;', 'wpse' ), get_the_title()) . '</a>'; 
-                $excerpt_more = apply_filters('excerpt_more', ' ' . $excerpt_end); 
+                $excerpt_end = ' <a href="'. esc_url( get_permalink() ) . '">' . '&nbsp;&raquo;&nbsp;' . sprintf(__( 'Read more about: %s &nbsp;&raquo;', 'wpse' ), get_the_title()) . '</a>';
+                $excerpt_more = apply_filters('excerpt_more', ' ' . $excerpt_end);
 
                 //$pos = strrpos($wpse_excerpt, '</');
                 //if ($pos !== false)
@@ -113,13 +122,13 @@ if ( ! function_exists( 'wpse_custom_wp_trim_excerpt' ) ) :
                 // After the content
                 $wpse_excerpt .= $excerpt_more; /*Add read more in new paragraph */
 
-            return $wpse_excerpt;   
+            return $wpse_excerpt;
 
         }
         return apply_filters('wpse_custom_wp_trim_excerpt', $wpse_excerpt, $raw_excerpt);
     }
 
-endif; 
+endif;
 
 remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 add_filter('get_the_excerpt', 'wpse_custom_wp_trim_excerpt');
