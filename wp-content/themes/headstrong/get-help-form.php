@@ -12,42 +12,42 @@
     <label class="get-help-form__label" for="first_name">
       First Name
     </label>
-    <input class="get-help-form__input" id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+    <input class="get-help-form__input" id="first_name" maxlength="40" name="first_name" size="20" type="text" required>
   </div>
 
   <div class="get-help-form__group">
     <label class="get-help-form__label" for="last_name">
       Last Name
     </label>
-    <input class="get-help-form__input" id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+    <input class="get-help-form__input" id="last_name" maxlength="80" name="last_name" size="20" type="text">
   </div>
 
   <div class="get-help-form__group">
     <label class="get-help-form__label" for="email">
       Email
     </label>
-    <input class="get-help-form__input" id="email" maxlength="80" name="email" size="20" type="email" />
+    <input class="get-help-form__input" id="email" maxlength="80" name="email" size="20" type="email" required>
   </div>
 
   <div class="get-help-form__group">
     <label class="get-help-form__label" for="phone">
       Phone
     </label>
-    <input class="get-help-form__input" id="phone" maxlength="40" name="phone" size="20" type="phone" />
+    <input class="get-help-form__input" id="phone" maxlength="40" name="phone" size="20" type="phone">
   </div>
 
   <div class="get-help-form__group">
     <label class="get-help-form__label" for="city">
       City
     </label>
-    <input class="get-help-form__input" id="city" maxlength="40" name="city" size="20" type="text" />
+    <input class="get-help-form__input" id="city" maxlength="40" name="city" size="20" type="text" required>
   </div>
 
   <div class="get-help-form__group">
     <label class="get-help-form__label" for="state">
       State/Province
     </label>
-    <input class="get-help-form__input" id="state" maxlength="20" name="state" size="20" type="text" />
+    <input class="get-help-form__input" id="state" maxlength="20" name="state" size="20" type="text" required>
   </div>
 
   <div class="get-help-form__group">
