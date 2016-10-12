@@ -762,18 +762,27 @@
   padding: 36px 0;
 }
 
-.partnerships__p {
-  margin: 0 auto 20px auto;
-  max-width: 900px;
-  text-align: center;
+.partnerships__image {
+  display: block;
+  margin: 0 auto 30px auto;
+  max-width: 80%;
 }
 
-.partnerships__image {
-  height: auto;
-  margin: 0 0 20px 0;
-  max-height: 300px;
-  max-width: 300px;
-  width: auto;
+.partnerships__list {
+  margin: 0 0 0 40px;
+}
+
+.partnerships__p {
+  margin: 0 auto 10px auto;
+  max-width: 900px;
+}
+
+.partnerships__partners {
+  display: inline-block;
+  margin: 0 0 30px 0;
+  padding: 0 40px 0 0;
+  vertical-align: top;
+  width: 33%;
 }
 
 .partnerships__title {
@@ -784,6 +793,27 @@
   font-size: 4.8rem;
   margin: 0 auto 20px auto;
   max-width: 900px;
+}
+
+@media (max-width: 992px) {
+
+
+.partnerships__list {
+  margin: 0 0 0 30px;
+}
+.partnerships__partners {
+  width: 49%;
+  padding: 0 30px 0 0;
+}
+
+}
+
+@media (max-width: 540px) {
+
+.partnerships__partners {
+  width: 100%;
+}
+
 }
 
 /* Social Media --------------------------------------------------------------*/
