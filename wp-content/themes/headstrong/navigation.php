@@ -50,7 +50,7 @@
 	 	</div>
  	</div>
 
-	<nav id="header__navbar" class="js-header__navbar navbar navbar-default" data-spy="affix" data-offset-top="35">
+	<nav id="header__navbar" class="navbar navbar-default" data-spy="affix" data-offset-top="35">
 	  <div class="header__nav">
 	  	<a
 				class="header__logo-link ga-track"
