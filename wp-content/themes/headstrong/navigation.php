@@ -9,7 +9,7 @@
  */
 ?>
 
-<header class="header">
+<header class="header header--jump">
 	<div class="header__sm">
 	  <div id="social-media" class="social-media">
 	  	<a

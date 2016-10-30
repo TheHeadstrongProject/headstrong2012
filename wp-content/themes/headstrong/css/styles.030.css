@@ -26,6 +26,10 @@
   font-weight: bold;
 }
 
+.header--jump {
+  min-height: 92px;
+}
+
 .header__logo {
   width: 100%;
 }
