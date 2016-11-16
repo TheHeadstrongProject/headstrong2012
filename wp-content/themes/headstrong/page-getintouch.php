@@ -63,23 +63,42 @@
 					</div>
 
 					<div class="row padded-panel">
-						<div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel">
-							<h2>Our treatment centers</h2>
-							<h3>New York</h3>
-							<p>New York</p>
-							<h3>California</h3>
-							<p>Temecula<br />
-							Encinitas<br />
-							Poway<br />
-							La Mesa<br />
-							San Diego<br />
-							Coronado Island, Coronado
-							</p>
-							<h3>Texas</h3>
-							<p>Houston </p>
+						<div class="center-align-panel col-xs-12 get-help__treatment-centers">
+							<h1>Our Treatment Centers</h1>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-6 get-help__treatment-centers__open-now">
+						<!-- <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel"> -->
+							<div class="get-help__treatment-centers__wrapper">
+								<h2>Open now</h2>
+								<h3>New York</h3>
+								<p>New York</p>
+								<h3>California</h3>
+								<p>Temecula<br />
+								Encinitas<br />
+								Poway<br />
+								La Mesa<br />
+								San Diego<br />
+								Coronado Island, Coronado
+								</p>
+								<h3>Texas</h3>
+								<p>Houston </p>
+							</div>
 						</div>
 
-						<div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5 treatment-centers-map-panel">
+						<div class="col-xs-6 get-help__treatment-centers__coming-soon">
+						<!-- <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel"> -->
+							<div class="get-help__treatment-centers__wrapper">
+								<h2 class="">Coming soon</h2>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12">
+						<!-- <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5 treatment-centers-map-panel"> -->
 							<div id="centers-map">
 								<div class="marker" data-lat="40.7591625" data-lng="-73.98837800000001">
 									<h4>West 45th Street</h4>
