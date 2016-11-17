@@ -51,7 +51,7 @@
 
 					<div class="row">
 						<div class="col-sm-2 col-lg-offset-1 hidden-xs">
-							<img class="alignnone size-full wp-image-121" src="http://getheadstrong.org/wp-content/uploads/2016/03/weill-cornell.png" alt="weill-cornell" width="148" height="89" />
+							<img class="get-help__weill-cornell" src="http://getheadstrong.org/wp-content/uploads/2016/03/weill-cornell.png" alt="weill-cornell" width="148" height="89" />
 						</div>
 
 						<div class="col-xs-12 col-sm-10 col-lg-8">
@@ -92,6 +92,11 @@
 						<!-- <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel"> -->
 							<div class="get-help__treatment-centers__wrapper">
 								<h2 class="">Coming soon</h2>
+								<h3>Illinois</h3>
+								<p>Chicago</p>
+								<h3>California</h3>
+								<p>Los Angeles</p>
+								<h3>Washington, D.C.</h3>
 							</div>
 						</div>
 					</div>
@@ -177,7 +182,12 @@ function new_map( $el ) {
     var args = {
         minZoom     : 3,
         center        : new google.maps.LatLng(0, 0),
-        mapTypeId    : google.maps.MapTypeId.ROADMAP
+        mapTypeId    : google.maps.MapTypeId.ROADMAP,
+        scrollwheel: false,
+    		navigationControl: false,
+    		mapTypeControl: false,
+   			scaleControl: true,
+    		draggable: true,
     };
 
     // create map
