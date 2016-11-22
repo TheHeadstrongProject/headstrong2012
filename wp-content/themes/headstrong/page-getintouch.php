@@ -63,16 +63,16 @@
 					</div>
 
 					<div class="row padded-panel">
-						<div class="center-align-panel col-xs-12 get-help__treatment-centers">
+						<div class="center-align-panel col-xs-12">
 							<h2>Our Treatment Centers</h2>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-xs-6 get-help__treatment-centers__open-now">
+						<div class="col-xs-6">
 						<!-- <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel"> -->
-							<div class="get-help__treatment-centers__wrapper">
-								<h2>Open now</h2>
+							<div class="get-help__treatment-centers-list">
+								<div class="get-help__open-now">Open now</div>
 								<h3>New York</h3>
 								<p>New York</p>
 								<h3>California</h3>
@@ -88,10 +88,10 @@
 							</div>
 						</div>
 
-						<div class="col-xs-6 get-help__treatment-centers__coming-soon">
+						<div class="col-xs-6">
 						<!-- <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel"> -->
-							<div class="get-help__treatment-centers__wrapper">
-								<h2 class="">Coming soon</h2>
+							<div class="get-help__treatment-centers-list">
+								<div class="get-help__coming-soon">Coming soon</div>
 								<h3>Illinois</h3>
 								<p>Chicago</p>
 								<h3>California</h3>

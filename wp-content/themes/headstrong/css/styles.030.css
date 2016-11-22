@@ -79,39 +79,30 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
+.get-help__coming-soon {
+  color: #c1272c;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
 .get-help__form-box {
   background-color: rgba(255, 255, 255, 1);
   padding: 20px;
 }
 
-.get-help__treatment-centers h2 {
+.get-help__open-now {
   color: #346094;
-  font-size: 4.8rem;
+  font-size: 3.2rem;
+  font-weight: 600;
 }
 
-.get-help__treatment-centers__coming-soon h2 {
-  color:#c1272c;
-  font-size: 3rem;
-}
-
-.get-help__treatment-centers__coming-soon h3 {
-  color: #6c9dc8;
-  font-size: 2.4rem;
-}
-
-.get-help__treatment-centers__open-now h2 {
-  color: #346094;
-  font-size: 3rem;
-}
-
-.get-help__treatment-centers__open-now h3 {
-  color: #6c9dc8;
-  font-size: 2.4rem;
-}
-
-.get-help__treatment-centers__wrapper {
+.get-help__treatment-centers-list {
   margin: 0 auto 0 auto;
   width: 50%;
+}
+
+.get-help__treatment-centers-list h3{
+  color: #6c9dc8;
 }
 
 .get-help__weill-cornell {
