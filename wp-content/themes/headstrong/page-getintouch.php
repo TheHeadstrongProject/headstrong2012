@@ -64,7 +64,7 @@
 
 					<div class="row padded-panel">
 						<div class="center-align-panel col-xs-12 get-help__treatment-centers">
-							<h1>Our Treatment Centers</h1>
+							<h2>Our Treatment Centers</h2>
 						</div>
 					</div>
 
