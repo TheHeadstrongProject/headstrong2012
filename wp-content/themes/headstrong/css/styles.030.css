@@ -79,9 +79,35 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
+.get-help__coming-soon {
+  color: #c1272c;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
 .get-help__form-box {
   background-color: rgba(255, 255, 255, 1);
   padding: 20px;
+}
+
+.get-help__open-now {
+  color: #346094;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.get-help__treatment-centers-list {
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+
+.get-help__treatment-centers-list h3{
+  color: #6c9dc8;
+}
+
+.get-help__weill-cornell {
+  height: auto;
+  width: 90%;
 }
 
 /*----------------------------- Get Help Form --------------------------------*/
@@ -7410,12 +7436,24 @@ footer {
   .submit-row h3 {
     color: #346094; }
 
+/*.treatment-centers__wrapper {
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+
+.treatment-centers__wrapper h2 {
+  color: #c1272c;
+}
+
+.treatment-centers-panel h1 {
+  color: #346094;
+  font-size: 4.8rem; }
 .treatment-centers-panel h2 {
   color: #346094;
-  font-size: 3.2rem; }
+  font-size: 3rem; }
 .treatment-centers-panel h3 {
-  font-size: 1.8rem;
-  color: #6c9dc8; }
+  font-size: 2.4rem;
+  color: #6c9dc8; }*/
 
 #centers-map {
   height: 500px;

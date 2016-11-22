@@ -51,7 +51,7 @@
 
 					<div class="row">
 						<div class="col-sm-2 col-lg-offset-1 hidden-xs">
-							<img class="alignnone size-full wp-image-121" src="http://getheadstrong.org/wp-content/uploads/2016/03/weill-cornell.png" alt="weill-cornell" width="148" height="89" />
+							<img class="get-help__weill-cornell" src="http://getheadstrong.org/wp-content/uploads/2016/03/weill-cornell.png" alt="weill-cornell" width="148" height="89" />
 						</div>
 
 						<div class="col-xs-12 col-sm-10 col-lg-8">
@@ -63,23 +63,47 @@
 					</div>
 
 					<div class="row padded-panel">
-						<div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel">
-							<h2>Our treatment centers</h2>
-							<h3>New York</h3>
-							<p>New York</p>
-							<h3>California</h3>
-							<p>Temecula<br />
-							Encinitas<br />
-							Poway<br />
-							La Mesa<br />
-							San Diego<br />
-							Coronado Island, Coronado
-							</p>
-							<h3>Texas</h3>
-							<p>Houston </p>
+						<div class="center-align-panel col-xs-12">
+							<h2>Our Treatment Centers</h2>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-6">
+						<!-- <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel"> -->
+							<div class="get-help__treatment-centers-list">
+								<div class="get-help__open-now">Open now</div>
+								<h3>New York</h3>
+								<p>New York</p>
+								<h3>California</h3>
+								<p>Temecula<br />
+								Encinitas<br />
+								Poway<br />
+								La Mesa<br />
+								San Diego<br />
+								Coronado Island, Coronado
+								</p>
+								<h3>Texas</h3>
+								<p>Houston </p>
+							</div>
 						</div>
 
-						<div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5 treatment-centers-map-panel">
+						<div class="col-xs-6">
+						<!-- <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-7 col-md-5 treatment-centers-panel"> -->
+							<div class="get-help__treatment-centers-list">
+								<div class="get-help__coming-soon">Coming soon</div>
+								<h3>Illinois</h3>
+								<p>Chicago</p>
+								<h3>California</h3>
+								<p>Los Angeles</p>
+								<h3>Washington, D.C.</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12">
+						<!-- <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5 treatment-centers-map-panel"> -->
 							<div id="centers-map">
 								<div class="marker" data-lat="40.7591625" data-lng="-73.98837800000001">
 									<h4>West 45th Street</h4>
@@ -158,7 +182,12 @@ function new_map( $el ) {
     var args = {
         minZoom     : 3,
         center        : new google.maps.LatLng(0, 0),
-        mapTypeId    : google.maps.MapTypeId.ROADMAP
+        mapTypeId    : google.maps.MapTypeId.ROADMAP,
+        scrollwheel: false,
+    		navigationControl: false,
+    		mapTypeControl: false,
+   			scaleControl: true,
+    		draggable: true,
     };
 
     // create map
