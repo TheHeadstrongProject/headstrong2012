@@ -748,6 +748,11 @@
   color: #6c9dc8;
 }
 
+.partnerships__aboutus {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .partnerships__above-the-fold {
   background-image: url(../img/hony_img.jpg);
   background-position: center;
@@ -759,17 +764,21 @@
 
 .partnerships__body {
   color: rgba(0, 0, 0, 0.87);
-  padding: 36px 0;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 36px 20px;
 }
 
 .partnerships__image {
   display: block;
-  margin: 0 auto 30px auto;
-  max-width: 80%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  max-width: 300px;
 }
 
 .partnerships__list {
-  margin: 0 0 0 40px;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .partnerships__p {
@@ -777,13 +786,13 @@
   max-width: 900px;
 }
 
-.partnerships__partners {
-  display: inline-block;
-  margin: 0 0 30px 0;
-  padding: 0 40px 0 0;
+.partnerships__partner {
+  clear: both;
+  margin: 0 auto 50px auto;
   vertical-align: top;
-  width: 33%;
+  width: 100%;
 }
+
 
 .partnerships__title {
   color: #6c9dc8;
@@ -795,23 +804,28 @@
   max-width: 900px;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
 
 
-.partnerships__list {
-  margin: 0 0 0 30px;
-}
-.partnerships__partners {
-  width: 49%;
-  padding: 0 30px 0 0;
-}
 
 }
 
-@media (max-width: 540px) {
+@media (min-width: 768px) {
 
-.partnerships__partners {
-  width: 100%;
+.partnerships__image {
+  padding-bottom: 50px;
+}
+
+.partnerships__left-image {
+  display: inline-block;
+  float: left;
+  margin: 0 50px 0 0;
+}
+
+.partnerships__right-image {
+  display: inline-block;
+  float: right;
+  margin: 0 0 0 50px;
 }
 
 }
