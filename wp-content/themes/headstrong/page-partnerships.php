@@ -26,6 +26,9 @@
       </div>
       <div class="partnerships__aboutus">
         <p>
+        Military veterans have the unique skills and experiences necessary to respond safely, rapidly and effectively in the wake of disasters.
+        </p>
+        <p>
         Team Rubicon seeks to provide our veterans with three things they lose after leaving the military: a purpose, gained through disaster response; community, built by serving with others; and identity, created by joining a new mission.
         </p>
         <p>
@@ -53,7 +56,13 @@
         </a>
       </div>
       <div class="partnerships__aboutus">
-        <p>The Mission Continues is a national nonprofit organization that empowers veterans who are adjusting to life at home to find purpose through community impact. Their operations in cities across the country deploy veteran volunteers alongside non-profit partners and community leaders to solve some of the most challenging issues facing our communities: improving community education resources, eliminating food deserts, mentoring at-risk youth and more. Through this unique model, veterans build new skills and networks that help them successfully reintegrate to life after the military while making long-term, sustainable transformations in communities and inspiring future generations to serve.
+        <p>The Mission Continues is a national nonprofit organization that empowers veterans who are adjusting to life at home to find purpose through community impact.
+        </p>
+        <p>
+        Their operations in cities across the country deploy veteran volunteers alongside non-profit partners and community leaders to solve some of the most challenging issues facing our communities: improving community education resources, eliminating food deserts, mentoring at-risk youth and more.
+        </p>
+        <p>
+        Through this unique model, veterans build new skills and networks that help them successfully reintegrate to life after the military while making long-term, sustainable transformations in communities and inspiring future generations to serve.
         </p>
       </div>
     </div>
@@ -74,7 +83,7 @@
         </a>
       </div>
       <div class="partnerships__aboutus">
-        <p class="partnerships__p">NextOp recruits, trains, and places high-performing middle-enlisted military leaders into energy, construction and healthcare careers.
+        <p>NextOp recruits, trains, and places high-performing middle-enlisted military leaders into energy, construction and healthcare careers.
         </p>
       </div>
     </div>
@@ -95,7 +104,10 @@
         </a>
       </div>
       <div class="partnerships__aboutus">
-        <p class="partnerships__p">Stop Soldier Suicide provides an active program of case management to enable Veterans of any service branch or service era achieve empowerment in their life beyond the military. We have an integrated network of resources to support the full hierarchy of needs, regardless of the complexity. We partner with our clients for a period of two years to help Veterans discover their unique path after they leave the service. By finding this path to empowerment, we can eliminate the despair that leads to suicide.
+        <p>Stop Soldier Suicide provides an active program of case management to enable Veterans of any service branch or service era achieve empowerment in their life beyond the military. We have an integrated network of resources to support the full hierarchy of needs, regardless of the complexity.
+        </p>
+        <p>
+        We partner with our clients for a period of two years to help Veterans discover their unique path after they leave the service. By finding this path to empowerment, we can eliminate the despair that leads to suicide.
         </p>
       </div>
     </div>
