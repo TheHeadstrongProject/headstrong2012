@@ -6,15 +6,18 @@
 
   <div class="partnerships__body">
     <h1 class="center-align-panel partnerships__title">Partnerships</h1>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
   </div>
 
   <div class="partnerships__list">
     <div class="partnerships__partner">
       <div class="partnerships__left-image">
         <?php $partnerships_tr_src = get_template_directory_uri() . '/img/TeamRubicon.png'; ?>
-        <a href="http://teamrubiconusa.org/join-the-team/" target="_blank">
+        <a
+          class="ga-track"
+          data-ga-action="clicked on image"
+          data-ga-category="team rubicon"
+          data-ga-label="partnerships list"
+          href="http://teamrubiconusa.org/join-the-team/" target="_blank">
           <img
             class="partnerships__image"
             src="<?php echo $partnerships_tr_src; ?>">
@@ -36,8 +39,13 @@
 
     <div class="partnerships__partner">
       <div class="partnerships__right-image">
-        <?php $partnerships_sss_src = get_template_directory_uri() . '/img/SSStagline.jpg'; ?>
-        <a href="https://www.missioncontinues.org/service-platoons/" target="_blank">
+        <?php $partnerships_sss_src = get_template_directory_uri() . '/img/mission continues.jpg'; ?>
+        <a
+          class="ga-track"
+          data-ga-action="clicked on image"
+          data-ga-category="mission continues"
+          data-ga-label="partnerships list"
+          href="https://www.missioncontinues.org/service-platoons/" target="_blank">
           <img
             class="partnerships__image"
             src="<?php echo $partnerships_sss_src; ?>">
@@ -53,7 +61,12 @@
     <div class="partnerships__partner">
       <div class="partnerships__left-image">
         <?php $partnerships_next_src = get_template_directory_uri() . '/img/nextop.jpg'; ?>
-        <a href="http://www.nextopvets.org/veterans/" target="_blank">
+        <a
+          class="ga-track"
+          data-ga-action="clicked on image"
+          data-ga-category="next op"
+          data-ga-label="partnerships list"
+          href="http://www.nextopvets.org/veterans/" target="_blank">
           <img
             class="partnerships__image"
             src="<?php echo $partnerships_next_src; ?>">
@@ -69,7 +82,12 @@
     <div class="partnerships__partner">
       <div class="partnerships__right-image">
         <?php $partnerships_sss_src = get_template_directory_uri() . '/img/SSStagline.jpg'; ?>
-        <a href="http://stopsoldiersuicide.org/" target="_blank">
+        <a
+          class="ga-track"
+          data-ga-action="clicked on image"
+          data-ga-category="stop soldier suicide"
+          data-ga-label="partnerships list"
+          href="http://stopsoldiersuicide.org/" target="_blank">
           <img
             class="partnerships__image"
             src="<?php echo $partnerships_sss_src; ?>">
