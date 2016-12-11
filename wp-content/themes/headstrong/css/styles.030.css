@@ -738,9 +738,9 @@
 
 }
 
-/*-------------------- HONY CTA bar --------------------------*/
+/*-------------------- FIXED BOTTOM CTA bar --------------------------*/
 
-.hony-cta {
+.bottom-cta {
   background-color: #111;
   border-radius: 0 30px 0 0;
   bottom: 0;
@@ -748,24 +748,52 @@
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   font-weight: bold;
+  max-width: 90%;
+  min-width: 300px;
   padding: 12px 40px 12px 30px;
   position: fixed;
-  text-align: center;
   z-index: 99;
 }
 
-.hony-cta:focus,
-.hony-cta:hover,
-.hony-cta:active {
+.bottom-cta:focus,
+.bottom-cta:hover,
+.bottom-cta:active {
   background-color: #333;
   color: white;
   text-decoration: none;
 }
 
-.hony-cta__text {
+.bottom-cta__button {
+  background-color: #c1272c;
+  border-radius: 8px;
+  display: inline-block;
+  float: right;
+  margin: 0 0 10px 0;
+  padding: 5px 10px;
+}
+
+.bottom-cta__text {
+  display: inline-block;
   font-size: 20px;
   font-weight: normal;
-  padding: 0 0 0 10px;
+  margin: 5px 20px 0 0;
+}
+
+.bottom-cta__thermometer {
+  clear: both;
+  margin: -20px 0 0 0;
+}
+
+.bottom-cta__thermometer-max {
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.bottom-cta__thermometer-min {
+  float: left;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 /* Social Media --------------------------------------------------------------*/

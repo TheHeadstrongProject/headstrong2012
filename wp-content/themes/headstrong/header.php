@@ -53,4 +53,4 @@
 			get_template_part('navigation');
 	?>
 
-	<?php get_template_part('hony-cta'); ?>
+	<?php get_template_part('bottom-cta'); ?>
