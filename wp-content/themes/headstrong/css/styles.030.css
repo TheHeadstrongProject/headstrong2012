@@ -755,9 +755,9 @@
   z-index: 99;
 }
 
-.bottom-cta:focus,
-.bottom-cta:hover,
-.bottom-cta:active {
+.bottom-cta--link:focus,
+.bottom-cta--link:hover,
+.bottom-cta--link:active {
   background-color: #333;
   color: white;
   text-decoration: none;
@@ -777,6 +777,10 @@
   font-weight: normal;
   margin: 5px 30px 5px 0;
   max-width: calc(100% - 105px);
+}
+
+.bottom-cta__text--donation {
+  max-width: 100%;
 }
 
 .bottom-cta__thermometer {
