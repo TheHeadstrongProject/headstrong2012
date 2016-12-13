@@ -1,6 +1,10 @@
 <?php
-  $copy = get_field('donate_thermometer_copy', 16);
-  $progress = get_field('donate_thermometer_progress', 16);
+  /**
+   * Get values from Donate page ACFs. The id of Donate page is 16. Formats and
+   * percertagizes the progress number.
+   */
+  $copy = get_field('donate_thermometer_copy', 16);         // string
+  $progress = get_field('donate_thermometer_progress', 16); // number
   $progress_formatted = '$' . $progress;
   $progress_percentage = $progress / 50000 * 100;
 ?>
