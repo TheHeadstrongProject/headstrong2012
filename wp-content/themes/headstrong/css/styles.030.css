@@ -814,6 +814,10 @@
   max-width: calc(100% - 95px);
 }
 
+.bottom-cta__text--donation {
+  max-width: 100%;
+}
+
 }
 
 /* Social Media --------------------------------------------------------------*/

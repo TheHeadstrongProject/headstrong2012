@@ -1,3 +1,10 @@
+<?php
+  $copy = the_field('donate_thermometer_copy', 16);
+  $progress = the_field('donate_thermometer_progress', 16);
+  $progress_formatted = money_format($progress);
+  $progress_percentage = $progress / 50000 * 100%;
+?>
+
 <?php if (!is_page('donate')) { ?>
   <a
     class="ga-track bottom-cta bottom-cta--link"
@@ -6,12 +13,21 @@
     data-ga-label="fixed"
     href="/donate"
   >
-    <div class="bottom-cta__text">Get us to 50k by 2017</div>
+    <div class="bottom-cta__text">
+      <?php echo $copy; ?>
+    </div>
     <div class="bottom-cta__button">Donate</div>
 
     <div class="progress bottom-cta__thermometer">
-      <div class="active progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-      <span>$25,000</span>
+      <div
+        class="active progress-bar progress-bar-danger progress-bar-striped"
+        role="progressbar"
+        aria-valuenow="<?php echo $progress; ?>"
+        aria-valuemin="0"
+        aria-valuemax="50000"
+        style="width:<?php echo $progress_percentage; ?>"
+      >
+      <span>$progress_formatted</span>
       </div>
     </div>
 
@@ -24,11 +40,20 @@
 
 <?php if (is_page('donate')) { ?>
   <div class="bottom-cta">
-    <div class="bottom-cta__text bottom-cta__text--donation">Get us to 50k by 2017</div>
+    <div class="bottom-cta__text bottom-cta__text--donation">
+      <?php echo $copy; ?>
+    </div>
 
     <div class="progress bottom-cta__thermometer">
-      <div class="active progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-      <span>$25,000</span>
+      <div
+        class="active progress-bar progress-bar-danger progress-bar-striped"
+        role="progressbar"
+        aria-valuenow="<?php echo $progress; ?>"
+        aria-valuemin="0"
+        aria-valuemax="50000"
+        style="width:<?php echo $progress_percentage; ?>"
+      >
+      <span>$progress_formatted</span>
       </div>
     </div>
 
