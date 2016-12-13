@@ -20,7 +20,7 @@
 	 <title><?php wp_title(); ?></title>
 	<!-- Bootstrap -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-	<link href="<?php bloginfo('template_url'); ?>/css/styles.030.css" rel="stylesheet">
+	<link href="<?php bloginfo('template_url'); ?>/css/styles.031.css" rel="stylesheet">
 
 	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -53,4 +53,4 @@
 			get_template_part('navigation');
 	?>
 
-	<?php get_template_part('hony-cta'); ?>
+	<?php get_template_part('bottom-cta'); ?>
