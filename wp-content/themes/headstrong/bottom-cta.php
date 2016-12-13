@@ -2,7 +2,7 @@
   $copy = the_field('donate_thermometer_copy', 16);
   $progress = the_field('donate_thermometer_progress', 16);
   $progress_formatted = money_format($progress);
-  $progress_percentage = $progress / 50000 * 100%;
+  $progress_percentage = $progress / 50000 * 100;
 ?>
 
 <?php if (!is_page('donate')) { ?>
@@ -25,7 +25,7 @@
         aria-valuenow="<?php echo $progress; ?>"
         aria-valuemin="0"
         aria-valuemax="50000"
-        style="width:<?php echo $progress_percentage; ?>"
+        style="width:<?php echo $progress_percentage; ?>%"
       >
       <span>$progress_formatted</span>
       </div>
@@ -51,7 +51,7 @@
         aria-valuenow="<?php echo $progress; ?>"
         aria-valuemin="0"
         aria-valuemax="50000"
-        style="width:<?php echo $progress_percentage; ?>"
+        style="width:<?php echo $progress_percentage; ?>%"
       >
       <span>$progress_formatted</span>
       </div>
