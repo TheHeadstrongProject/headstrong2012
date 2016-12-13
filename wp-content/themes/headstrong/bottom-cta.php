@@ -1,6 +1,6 @@
 <?php
-  $copy = the_field('donate_thermometer_copy', 16);
-  $progress = the_field('donate_thermometer_progress', 16);
+  $copy = get_field('donate_thermometer_copy', 16);
+  $progress = get_field('donate_thermometer_progress', 16);
   $progress_formatted = money_format($progress);
   $progress_percentage = $progress / 50000 * 100;
 ?>
