@@ -1,7 +1,7 @@
 <?php
   $copy = get_field('donate_thermometer_copy', 16);
   $progress = get_field('donate_thermometer_progress', 16);
-  $progress_formatted = money_format($progress);
+  $progress_formatted = '$' . $progress;
   $progress_percentage = $progress / 50000 * 100;
 ?>
 
@@ -27,7 +27,7 @@
         aria-valuemax="50000"
         style="width:<?php echo $progress_percentage; ?>%"
       >
-      <span>$progress_formatted</span>
+      <span><?php echo $progress_formatted; ?></span>
       </div>
     </div>
 
@@ -53,7 +53,7 @@
         aria-valuemax="50000"
         style="width:<?php echo $progress_percentage; ?>%"
       >
-      <span>$progress_formatted</span>
+      <span><?php echo $progress_formatted; ?></span>
       </div>
     </div>
 
