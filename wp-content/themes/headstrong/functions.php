@@ -25,6 +25,9 @@
  * @since Headstrong 1.0
  */
 
+// NEXT: Organize functions.php into separate includes/ files.
+require_once(get_template_directory() . '/includes/advanced-custom-fields.php');
+
 //redirections
 function my_page_template_redirect() {
   if(is_page('hony')) {
