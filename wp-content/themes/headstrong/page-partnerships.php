@@ -6,8 +6,6 @@
 
   <div class="partnerships__body">
     <h1 class="center-align-panel partnerships__title">Partnerships</h1>
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </p>
   </div>
 
   <div class="partnerships__list">
@@ -116,7 +114,7 @@
 
     <div class="partnerships__partner">
       <div class="partnerships__left-image">
-        <?php $partnerships_next_src = get_template_directory_uri() . '/img/patriots-charity-initiative.png'; ?>
+        <?php $partnerships_next_src = get_template_directory_uri() . '/img/bbmc_mortgage.png'; ?>
         <a
           class="ga-track"
           data-ga-action="clicked on image"
@@ -128,7 +126,7 @@
             src="<?php echo $partnerships_next_src; ?>">
           </img>
         </a>
-        <?php $partnerships_next_src = get_template_directory_uri() . '/img/bbmc_mortgage.png'; ?>
+        <?php $partnerships_next_src = get_template_directory_uri() . '/img/patriots-charity-initiative.png'; ?>
         <a
           class="ga-track"
           data-ga-action="clicked on image"
