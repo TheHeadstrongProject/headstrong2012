@@ -9,6 +9,41 @@
   </div>
 
   <div class="partnerships__list">
+  <div class="partnerships__partner">
+      <div class="partnerships__left-image">
+        <?php $partnerships_next_src = get_template_directory_uri() . '/img/bbmc_mortgage.png'; ?>
+        <a
+          class="ga-track"
+          data-ga-action="clicked on image"
+          data-ga-category="bbmc patriots charity initiative"
+          data-ga-label="partnerships list"
+          href="https://www.mybbmc.com/about-us/patriots-charity-initiative/" target="_blank">
+          <img
+            class="partnerships__image"
+            src="<?php echo $partnerships_next_src; ?>">
+          </img>
+        </a>
+        <?php $partnerships_next_src = get_template_directory_uri() . '/img/patriots-charity-initiative.png'; ?>
+        <a
+          class="ga-track"
+          data-ga-action="clicked on image"
+          data-ga-category="bbmc patriots charity initiative"
+          data-ga-label="partnerships list"
+          href="https://www.mybbmc.com/about-us/patriots-charity-initiative/" target="_blank">
+          <img
+            class="partnerships__image"
+            src="<?php echo $partnerships_next_src; ?>">
+          </img>
+        </a>
+
+      </div>
+
+      <div class="partnerships__aboutus">
+        <p>Headstrong is honored to be in a partnership with BBMC Mortgage. We thank BBMC for their continued support through their Patriots Initiative which donates $150 to one of four veteran and active duty charities, of which Headstrong Project is included, for every participating loan that they close.
+        </p>
+      </div>
+    </div>
+
     <div class="partnerships__partner">
       <div class="partnerships__left-image">
         <?php $partnerships_tr_src = get_template_directory_uri() . '/img/TeamRubicon.png'; ?>
@@ -111,42 +146,6 @@
         </p>
       </div>
     </div>
-
-    <div class="partnerships__partner">
-      <div class="partnerships__left-image">
-        <?php $partnerships_next_src = get_template_directory_uri() . '/img/bbmc_mortgage.png'; ?>
-        <a
-          class="ga-track"
-          data-ga-action="clicked on image"
-          data-ga-category="bbmc patriots charity initiative"
-          data-ga-label="partnerships list"
-          href="https://www.mybbmc.com/about-us/patriots-charity-initiative/" target="_blank">
-          <img
-            class="partnerships__image"
-            src="<?php echo $partnerships_next_src; ?>">
-          </img>
-        </a>
-        <?php $partnerships_next_src = get_template_directory_uri() . '/img/patriots-charity-initiative.png'; ?>
-        <a
-          class="ga-track"
-          data-ga-action="clicked on image"
-          data-ga-category="bbmc patriots charity initiative"
-          data-ga-label="partnerships list"
-          href="https://www.mybbmc.com/about-us/patriots-charity-initiative/" target="_blank">
-          <img
-            class="partnerships__image"
-            src="<?php echo $partnerships_next_src; ?>">
-          </img>
-        </a>
-
-      </div>
-
-      <div class="partnerships__aboutus">
-        <p>Headstrong is honored to be in a partnership with BBMC Mortgage. We thank BBMC for their continued support through their Patriots Initiative which donates $150 to one of four veteran and active duty charities, of which Headstrong Project is included, for every participating loan that they close.
-        </p>
-      </div>
-    </div>
-
   </div>
 </div>
 
