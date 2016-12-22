@@ -9,7 +9,7 @@
  */
 ?>
 
-<header class="header">
+<header class="header header--jump">
 	<div class="header__sm">
 	  <div id="social-media" class="social-media">
 	  	<a
@@ -63,7 +63,7 @@
 				<img
 					alt="The Headstrong Project"
 					class="header__logo"
-					src="<?php bloginfo('template_url'); ?>/img/HeadstrongLogo-Tagline.svg"
+					src="<?php bloginfo('template_url'); ?>/img/HeadstrongLogo-Tagline.png"
 				/>
 			</a>
 
