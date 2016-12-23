@@ -11,7 +11,7 @@
   <div class="partnerships__list">
   <div class="partnerships__partner">
       <div class="partnerships__left-image">
-        <?php $partnerships_next_src = get_template_directory_uri() . '/img/bbmc_mortgage.png'; ?>
+        <?php $partnerships_next_src = get_template_directory_uri() . '/img/BBMC_Logo.png'; ?>
         <a
           class="ga-track"
           data-ga-action="clicked on image"
