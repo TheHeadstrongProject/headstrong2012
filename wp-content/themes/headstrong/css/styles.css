@@ -756,6 +756,7 @@
   z-index: 99;
 }
 
+
 .bottom-cta:focus,
 .bottom-cta:hover,
 .bottom-cta:active {
@@ -767,9 +768,8 @@
 .bottom-cta__text {
   display: inline-block;
   font-weight: normal;
-  margin: 5px 0px 5px 20px;
+  margin: 0px 0px 0px 10px;
 }
-
 
 @media (max-width: 992px) {
 
