@@ -190,6 +190,17 @@
 								<a
 									class="dropdown-toggle ga-track"
 									data-ga-action="clicked on nav"
+		      				data-ga-category="partnerships"
+		      				data-ga-label="header"
+									href="/partnerships/"
+								>
+									Our Partners
+								</a>
+							</li>
+							<li>
+								<a
+									class="dropdown-toggle ga-track"
+									data-ga-action="clicked on nav"
 		      				data-ga-category="contact-us"
 		      				data-ga-label="header"
 									href="/about-us/contact-us/"
