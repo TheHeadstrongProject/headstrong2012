@@ -45,7 +45,7 @@
     </div>
 
     <div class="partnerships__partner">
-      <div class="partnerships__left-image">
+      <div class="partnerships__right-image">
         <?php $partnerships_tr_src = get_template_directory_uri() . '/img/TeamRubicon.png'; ?>
         <a
           class="ga-track"
@@ -76,7 +76,7 @@
     </div>
 
     <div class="partnerships__partner">
-      <div class="partnerships__right-image">
+      <div class="partnerships__left-image">
         <?php $partnerships_sss_src = get_template_directory_uri() . '/img/mission continues.jpg'; ?>
         <a
           class="ga-track"
@@ -103,7 +103,7 @@
     </div>
 
     <div class="partnerships__partner">
-      <div class="partnerships__left-image">
+      <div class="partnerships__right-image">
         <?php $partnerships_next_src = get_template_directory_uri() . '/img/nextop.jpg'; ?>
         <a
           class="ga-track"
@@ -124,7 +124,7 @@
     </div>
 
     <div class="partnerships__partner">
-      <div class="partnerships__right-image">
+      <div class="partnerships__left-image">
         <?php $partnerships_sss_src = get_template_directory_uri() . '/img/SSStagline.jpg'; ?>
         <a
           class="ga-track"
