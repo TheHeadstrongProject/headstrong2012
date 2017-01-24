@@ -756,52 +756,19 @@
   z-index: 99;
 }
 
-.bottom-cta--link:focus,
-.bottom-cta--link:hover,
-.bottom-cta--link:active {
+
+.bottom-cta:focus,
+.bottom-cta:hover,
+.bottom-cta:active {
   background-color: #333;
   color: white;
   text-decoration: none;
 }
 
-.bottom-cta__button {
-  background-color: #c1272c;
-  border-radius: 8px;
-  display: inline-block;
-  float: right;
-  margin: 0 0 10px 0;
-  padding: 5px 10px;
-}
-
 .bottom-cta__text {
   display: inline-block;
   font-weight: normal;
-  margin: 5px 30px 5px 0;
-  max-width: calc(100% - 105px);
-}
-
-.bottom-cta__text--donation {
-  max-width: 100%;
-}
-
-.bottom-cta__thermometer {
-  clear: both;
-}
-
-.bottom-cta__thermometer-max {
-  float: right;
-  font-size: 12px;
-  font-weight: normal;
-}
-
-.bottom-cta__thermometer-min {
-  float: left;
-  font-size: 12px;
-  font-weight: normal;
-}
-
-.bottom-cta__thermometer-values {
-  margin: -20px 0 0 0;
+  margin: 0px 0px 0px 10px;
 }
 
 @media (max-width: 992px) {
@@ -809,16 +776,6 @@
 .bottom-cta {
   font-size: 16px;
   padding: 12px 25px 12px 15px;
-}
-
-.bottom-cta__text {
-  max-width: calc(100% - 95px);
-}
-
-.bottom-cta__text--donation {
-  max-width: 100%;
-}
-
 }
 
 /*------------------------- Partnerships -------------------------------------*/
